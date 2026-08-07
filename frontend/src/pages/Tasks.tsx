@@ -8,7 +8,7 @@ import DailyProgressBar from "../components/planner/DailyProgressBar";
 import PlannerTopicRow from "../components/planner/PlannerTopicRow";
 import type { Topic } from "../types/syllabus";
 
-const BUDGET_OPTIONS = [30, 45, 60, 90, 120, 180];
+const BUDGET_OPTIONS = [180, 240, 300, 360];
 
 const SECTION_META: Record<PlanSectionKind, { label: string; chip: string; card: string }> = {
   FOCUS: {
@@ -58,8 +58,8 @@ export default function Tasks() {
         <div>
           <h1 className="text-2xl font-semibold text-slate-900">Today's Plan</h1>
           <p className="mt-2 text-slate-500">
-            A deep-focus block plus a spark of variety — sequenced so you build real depth without
-            getting lost.
+            Deep-focus work on your priority track plus a spark of variety — sequenced so you build
+            real depth without getting lost.
           </p>
         </div>
         <label className="flex items-center gap-2 text-sm text-slate-600">
@@ -103,7 +103,7 @@ export default function Tasks() {
               const isReview = section.kind === "REVIEW";
               return (
                 <section
-                  key={`${section.kind}:${section.title}`}
+                  key={`${section.kind}:${section.title}:${section.topics[0]?.id ?? ""}`}
                   className={`rounded-lg border p-4 ${meta.card}`}
                 >
                   <div className="flex flex-wrap items-center gap-2">

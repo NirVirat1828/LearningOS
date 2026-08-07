@@ -5,7 +5,7 @@ const SETTINGS_KEY = "learningos.settings.v1";
 // flat-array plan is simply ignored and recomputed once.
 const PLAN_PREFIX = "learningos.plan.v2.";
 
-const DEFAULT_DAILY_MINUTES = 90;
+const DEFAULT_DAILY_MINUTES = 180;
 
 interface Settings {
   dailyMinutes: number;

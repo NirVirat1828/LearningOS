@@ -12,7 +12,7 @@
           "id": "geointel-software-engineering/python-core/data-types-control-flow-functions-classes-oop-refresher-comi",
           "title": "Data types, control flow, functions, classes (OOP refresher coming from Java)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -20,7 +20,7 @@
           "id": "geointel-software-engineering/python-core/virtual-environments-and-dependency-management-venv-poetry-o",
           "title": "Virtual environments and dependency management (venv, poetry, or uv)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -28,7 +28,7 @@
           "id": "geointel-software-engineering/python-core/type-hints-and-static-checking-mypy-basics",
           "title": "Type hints and static checking (mypy basics)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -36,7 +36,7 @@
           "id": "geointel-software-engineering/python-core/async-await-syntax-and-asyncio-fundamentals",
           "title": "async / await syntax and asyncio fundamentals",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -44,7 +44,7 @@
           "id": "geointel-software-engineering/python-core/context-managers-with-statements",
           "title": "Context managers ( with statements)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -52,7 +52,7 @@
           "id": "geointel-software-engineering/python-core/decorators-used-throughout-fastapi",
           "title": "Decorators (used throughout FastAPI)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -60,7 +60,7 @@
           "id": "geointel-software-engineering/python-core/custom-exceptions-and-error-handling-patterns",
           "title": "Custom exceptions and error handling patterns",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -68,7 +68,7 @@
           "id": "geointel-software-engineering/python-core/working-with-json-serialization-deserialization",
           "title": "Working with JSON serialization/deserialization",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -76,7 +76,7 @@
           "id": "geointel-software-engineering/python-core/datetime-and-timezone-handling-critical-for-cross-source-new",
           "title": "Datetime and timezone handling (critical for cross-source news timestamps)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -84,7 +84,7 @@
           "id": "geointel-software-engineering/python-core/regular-expressions-for-text-cleaning-and-keyword-filtering",
           "title": "Regular expressions for text cleaning and keyword filtering",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -92,7 +92,7 @@
           "id": "geointel-software-engineering/python-core/package-module-structure-and-import-conventions",
           "title": "Package/module structure and import conventions",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -107,7 +107,7 @@
           "id": "geointel-software-engineering/fastapi/path-parameters-query-parameters-request-bodies",
           "title": "Path parameters, query parameters, request bodies",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -115,7 +115,7 @@
           "id": "geointel-software-engineering/fastapi/pydantic-models-for-request-response-validation",
           "title": "Pydantic models for request/response validation",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -123,7 +123,7 @@
           "id": "geointel-software-engineering/fastapi/dependency-injection-depends",
           "title": "Dependency injection ( Depends() )",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -131,7 +131,7 @@
           "id": "geointel-software-engineering/fastapi/async-endpoints-vs-sync-endpoints-when-each-applies",
           "title": "Async endpoints vs sync endpoints \u2014 when each applies",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -139,7 +139,7 @@
           "id": "geointel-software-engineering/fastapi/background-tasks-vs-external-schedulers",
           "title": "Background tasks vs external schedulers",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -147,7 +147,7 @@
           "id": "geointel-software-engineering/fastapi/middleware-cors-logging-custom-auth",
           "title": "Middleware (CORS, logging, custom auth)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -155,7 +155,7 @@
           "id": "geointel-software-engineering/fastapi/exception-handlers",
           "title": "Exception handlers",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -163,7 +163,7 @@
           "id": "geointel-software-engineering/fastapi/auto-generated-openapi-swagger-docs",
           "title": "Auto-generated OpenAPI/Swagger docs",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -171,7 +171,7 @@
           "id": "geointel-software-engineering/fastapi/testing-with-testclient-and-pytest",
           "title": "Testing with TestClient and pytest",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -179,7 +179,7 @@
           "id": "geointel-software-engineering/fastapi/cookie-session-based-authentication",
           "title": "Cookie/session-based authentication",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -194,7 +194,7 @@
           "id": "geointel-software-engineering/postgresql/relational-schema-design-tables-keys-foreign-keys-indexes",
           "title": "Relational schema design: tables, keys, foreign keys, indexes",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -202,7 +202,7 @@
           "id": "geointel-software-engineering/postgresql/sql-fundamentals-select-join-group-by-subqueries-window-func",
           "title": "SQL fundamentals: SELECT, JOIN, GROUP BY, subqueries, window functions",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -210,7 +210,7 @@
           "id": "geointel-software-engineering/postgresql/migrations-and-schema-versioning-alembic",
           "title": "Migrations and schema versioning (Alembic)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -218,7 +218,7 @@
           "id": "geointel-software-engineering/postgresql/transactions-and-acid-basics",
           "title": "Transactions and ACID basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -226,7 +226,7 @@
           "id": "geointel-software-engineering/postgresql/pgvector-extension-vector-columns-similarity-operators",
           "title": "pgvector extension: vector columns, similarity operators",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -234,7 +234,7 @@
           "id": "geointel-software-engineering/postgresql/vector-indexing-at-scale-ivfflat-hnsw-conceptual-for-later",
           "title": "Vector indexing at scale (IVFFlat, HNSW) \u2014 conceptual, for later",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -242,7 +242,7 @@
           "id": "geointel-software-engineering/postgresql/connection-pooling-asyncpg-sqlalchemy-async-engine",
           "title": "Connection pooling (asyncpg / SQLAlchemy async engine)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -250,7 +250,7 @@
           "id": "geointel-software-engineering/postgresql/jsonb-columns-for-semi-structured-data",
           "title": "JSONB columns for semi-structured data",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -258,7 +258,7 @@
           "id": "geointel-software-engineering/postgresql/full-text-search-tsvector-as-a-complement-to-semantic-search",
           "title": "Full-text search ( tsvector ) as a complement to semantic search",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -273,7 +273,7 @@
           "id": "geointel-software-engineering/redis/key-value-basics-and-ttls",
           "title": "Key-value basics and TTLs",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -281,7 +281,7 @@
           "id": "geointel-software-engineering/redis/cache-aside-pattern",
           "title": "Cache-aside pattern",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -289,7 +289,7 @@
           "id": "geointel-software-engineering/redis/rate-limiting-patterns",
           "title": "Rate limiting patterns",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -297,7 +297,7 @@
           "id": "geointel-software-engineering/redis/pub-sub-basics",
           "title": "Pub/sub basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -305,7 +305,7 @@
           "id": "geointel-software-engineering/redis/redis-as-a-celery-broker",
           "title": "Redis as a Celery broker",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -320,7 +320,7 @@
           "id": "geointel-software-engineering/apis/rest-principles-idempotency-status-codes-resource-modeling",
           "title": "REST principles: idempotency, status codes, resource modeling",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -328,7 +328,7 @@
           "id": "geointel-software-engineering/apis/api-versioning-strategies",
           "title": "API versioning strategies",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -336,7 +336,7 @@
           "id": "geointel-software-engineering/apis/pagination-patterns-cursor-vs-offset",
           "title": "Pagination patterns (cursor vs offset)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -344,7 +344,7 @@
           "id": "geointel-software-engineering/apis/rate-limiting-and-api-key-design-for-your-own-endpoints",
           "title": "Rate limiting and API key design for your own endpoints",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -352,7 +352,7 @@
           "id": "geointel-software-engineering/apis/consuming-third-party-apis-auth-headers-retries-backoff",
           "title": "Consuming third-party APIs: auth headers, retries, backoff",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -360,7 +360,7 @@
           "id": "geointel-software-engineering/apis/webhook-basics",
           "title": "Webhook basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -368,7 +368,7 @@
           "id": "geointel-software-engineering/apis/api-documentation-practices",
           "title": "API documentation practices",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -383,7 +383,7 @@
           "id": "geointel-software-engineering/docker/images-vs-containers",
           "title": "Images vs containers",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -391,7 +391,7 @@
           "id": "geointel-software-engineering/docker/writing-a-dockerfile-multi-stage-builds",
           "title": "Writing a Dockerfile, multi-stage builds",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -399,7 +399,7 @@
           "id": "geointel-software-engineering/docker/docker-compose-for-multi-service-local-dev",
           "title": "Docker Compose for multi-service local dev",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -407,7 +407,7 @@
           "id": "geointel-software-engineering/docker/volumes-and-persistent-storage-concepts",
           "title": "Volumes and persistent storage concepts",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -415,7 +415,7 @@
           "id": "geointel-software-engineering/docker/environment-variable-management-in-containers",
           "title": "Environment variable management in containers",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -423,7 +423,7 @@
           "id": "geointel-software-engineering/docker/container-to-container-networking-service-discovery-by-name",
           "title": "Container-to-container networking (service discovery by name)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -431,7 +431,7 @@
           "id": "geointel-software-engineering/docker/image-size-optimization",
           "title": "Image size optimization",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -446,7 +446,7 @@
           "id": "geointel-software-engineering/cloud-deployment/paas-vs-iaas-vs-serverless-when-each-fits",
           "title": "PaaS vs IaaS vs serverless \u2014 when each fits",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
           "resources": []
@@ -455,7 +455,7 @@
           "id": "geointel-software-engineering/cloud-deployment/secrets-environment-variable-management-in-production",
           "title": "Secrets/environment variable management in production",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -463,7 +463,7 @@
           "id": "geointel-software-engineering/cloud-deployment/ci-cd-basics-build-test-deploy-pipeline-e-g-github-actions",
           "title": "CI/CD basics (build/test/deploy pipeline, e.g. GitHub Actions)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -471,7 +471,7 @@
           "id": "geointel-software-engineering/cloud-deployment/domain-dns-basics-https-tls-certificates",
           "title": "Domain/DNS basics, HTTPS/TLS certificates",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -479,7 +479,7 @@
           "id": "geointel-software-engineering/cloud-deployment/production-logging-and-basic-alerting",
           "title": "Production logging and basic alerting",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -487,7 +487,7 @@
           "id": "geointel-software-engineering/cloud-deployment/free-tier-limits-and-scaling-cost-awareness",
           "title": "Free-tier limits and scaling cost awareness",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -495,7 +495,7 @@
           "id": "geointel-software-engineering/cloud-deployment/horizontal-vs-vertical-scaling-concepts",
           "title": "Horizontal vs vertical scaling concepts",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -510,7 +510,7 @@
           "id": "geointel-software-engineering/system-design/load-balancing-basics",
           "title": "Load balancing basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -518,7 +518,7 @@
           "id": "geointel-software-engineering/system-design/where-caching-layers-fit-in-a-request-path",
           "title": "Where caching layers fit in a request path",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -526,7 +526,7 @@
           "id": "geointel-software-engineering/system-design/message-queues-and-async-processing-why-ingestion-and-enrich",
           "title": "Message queues and async processing (why ingestion and enrichment are decoupled)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -534,7 +534,7 @@
           "id": "geointel-software-engineering/system-design/database-indexing-and-query-optimization",
           "title": "Database indexing and query optimization",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -542,7 +542,7 @@
           "id": "geointel-software-engineering/system-design/read-replicas-scaling-reads-vs-writes",
           "title": "Read replicas / scaling reads vs writes",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -550,7 +550,7 @@
           "id": "geointel-software-engineering/system-design/backpressure-and-rate-limiting-under-load",
           "title": "Backpressure and rate limiting under load",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -558,7 +558,7 @@
           "id": "geointel-software-engineering/system-design/idempotency-in-distributed-background-jobs",
           "title": "Idempotency in distributed/background jobs",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -566,7 +566,7 @@
           "id": "geointel-software-engineering/system-design/cap-theorem-basics",
           "title": "CAP theorem basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -574,7 +574,7 @@
           "id": "geointel-software-engineering/system-design/designing-for-failure-retries-circuit-breakers-dead-letter-q",
           "title": "Designing for failure: retries, circuit breakers, dead-letter queues",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -589,7 +589,7 @@
           "id": "geointel-software-engineering/mlops/prompt-model-versioning-tracking-which-version-produced-whic",
           "title": "Prompt/model versioning \u2014 tracking which version produced which output",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -597,7 +597,7 @@
           "id": "geointel-software-engineering/mlops/evaluation-pipelines-your-extraction-eval-set-is-the-seed-of",
           "title": "Evaluation pipelines (your extraction eval set is the seed of this)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -605,7 +605,7 @@
           "id": "geointel-software-engineering/mlops/logging-llm-inputs-outputs-for-debugging",
           "title": "Logging LLM inputs/outputs for debugging",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -613,7 +613,7 @@
           "id": "geointel-software-engineering/mlops/token-cost-monitoring-per-model-call",
           "title": "Token/cost monitoring per model call",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -621,7 +621,7 @@
           "id": "geointel-software-engineering/mlops/a-b-testing-prompts-or-models",
           "title": "A/B testing prompts or models",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -629,7 +629,7 @@
           "id": "geointel-software-engineering/mlops/data-pipeline-health-monitoring-did-ingestion-actually-run-t",
           "title": "Data pipeline health monitoring (did ingestion actually run today?)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -637,7 +637,7 @@
           "id": "geointel-software-engineering/mlops/model-prompt-drift-over-time",
           "title": "Model/prompt drift over time",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -645,7 +645,7 @@
           "id": "geointel-software-engineering/mlops/basic-feature-store-concepts",
           "title": "Basic feature store concepts",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -692,7 +692,7 @@
           "id": "geointel-software-engineering/kubernetes-for-model-serving/resource-requests-limits-and-gpu-scheduling",
           "title": "Resource requests/limits and GPU scheduling for a serving pod",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -707,7 +707,7 @@
           "id": "geointel-software-engineering/terraform-basics/core-workflow-init-plan-apply-and-state",
           "title": "Terraform core workflow: init, plan, apply, and state",
           "difficulty": "BEGINNER",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 15,
           "prerequisites": [],
           "resources": []
         },
@@ -723,7 +723,7 @@
           "id": "geointel-software-engineering/terraform-basics/variables-outputs-and-a-remote-state-backend",
           "title": "Variables, outputs, and a remote state backend, basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }

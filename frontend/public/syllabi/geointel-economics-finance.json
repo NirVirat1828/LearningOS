@@ -12,7 +12,7 @@
           "id": "geointel-economics-finance/macroeconomics/gdp-and-growth-cycle-basics",
           "title": "GDP and growth-cycle basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -20,7 +20,7 @@
           "id": "geointel-economics-finance/macroeconomics/inflation-causes-and-measurement-cpi-wpi",
           "title": "Inflation causes and measurement (CPI, WPI)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -28,7 +28,7 @@
           "id": "geointel-economics-finance/macroeconomics/how-central-banks-set-interest-rates-and-why",
           "title": "How central banks set interest rates and why",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -36,7 +36,7 @@
           "id": "geointel-economics-finance/macroeconomics/monetary-policy-vs-fiscal-policy-who-does-what",
           "title": "Monetary policy vs fiscal policy \u2014 who does what",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -44,7 +44,7 @@
           "id": "geointel-economics-finance/macroeconomics/unemployment-inflation-relationship-conceptually",
           "title": "Unemployment/inflation relationship, conceptually",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -52,7 +52,7 @@
           "id": "geointel-economics-finance/macroeconomics/balance-of-trade-current-account-basics",
           "title": "Balance of trade / current account basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -67,7 +67,7 @@
           "id": "geointel-economics-finance/stock-markets/how-exchanges-work-order-books-market-makers-matching",
           "title": "How exchanges work: order books, market makers, matching",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -75,7 +75,7 @@
           "id": "geointel-economics-finance/stock-markets/equity-valuation-basics-p-e-ratio-market-cap-earnings",
           "title": "Equity valuation basics: P/E ratio, market cap, earnings",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -83,7 +83,7 @@
           "id": "geointel-economics-finance/stock-markets/index-construction-how-nifty-sensex-s-p-500-are-built",
           "title": "Index construction (how Nifty/Sensex/S&P 500 are built)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -91,7 +91,7 @@
           "id": "geointel-economics-finance/stock-markets/market-sentiment-indicators-vix-put-call-ratio",
           "title": "Market sentiment indicators (VIX, put-call ratio)",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -99,7 +99,7 @@
           "id": "geointel-economics-finance/stock-markets/sectoral-sensitivity-why-energy-stocks-react-to-oil-events-s",
           "title": "Sectoral sensitivity \u2014 why energy stocks react to oil events specifically",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -114,7 +114,7 @@
           "id": "geointel-economics-finance/commodities/spot-vs-futures-pricing",
           "title": "Spot vs futures pricing",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -122,7 +122,7 @@
           "id": "geointel-economics-finance/commodities/crude-oil-benchmarks-brent-vs-wti-vs-dubai-and-why-they-dive",
           "title": "Crude oil benchmarks: Brent vs WTI vs Dubai, and why they diverge",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -130,7 +130,7 @@
           "id": "geointel-economics-finance/commodities/supply-demand-shocks-and-transmission-into-price",
           "title": "Supply/demand shocks and transmission into price",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -138,7 +138,7 @@
           "id": "geointel-economics-finance/commodities/opec-mechanics-quotas-compliance-spare-capacity",
           "title": "OPEC+ mechanics: quotas, compliance, spare capacity",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -146,7 +146,7 @@
           "id": "geointel-economics-finance/commodities/strategic-petroleum-reserves-as-a-shock-buffer",
           "title": "Strategic petroleum reserves as a shock buffer",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -161,7 +161,7 @@
           "id": "geointel-economics-finance/interest-rates-bonds/bond-basics-yield-coupon-face-value-price-yield-inverse-rela",
           "title": "Bond basics: yield, coupon, face value, price-yield inverse relationship",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -169,7 +169,7 @@
           "id": "geointel-economics-finance/interest-rates-bonds/yield-curve-shape-and-inversion-signals",
           "title": "Yield curve shape and inversion signals",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -177,7 +177,7 @@
           "id": "geointel-economics-finance/interest-rates-bonds/sovereign-bonds-and-country-risk-premiums",
           "title": "Sovereign bonds and country risk premiums",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -185,7 +185,7 @@
           "id": "geointel-economics-finance/interest-rates-bonds/how-rate-changes-ripple-into-currencies-and-equities",
           "title": "How rate changes ripple into currencies and equities",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -200,7 +200,7 @@
           "id": "geointel-economics-finance/inflation/headline-vs-core-inflation",
           "title": "Headline vs core inflation",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -208,7 +208,7 @@
           "id": "geointel-economics-finance/inflation/energy-price-pass-through-to-broader-inflation",
           "title": "Energy price pass-through to broader inflation",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -216,7 +216,7 @@
           "id": "geointel-economics-finance/inflation/real-vs-nominal-returns",
           "title": "Real vs nominal returns",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -231,7 +231,7 @@
           "id": "geointel-economics-finance/currencies/floating-vs-pegged-exchange-rate-mechanics",
           "title": "Floating vs pegged exchange rate mechanics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -239,7 +239,7 @@
           "id": "geointel-economics-finance/currencies/petrocurrencies-why-oil-exporter-currencies-track-oil-prices",
           "title": "Petrocurrencies \u2014 why oil-exporter currencies track oil prices",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -247,7 +247,7 @@
           "id": "geointel-economics-finance/currencies/inr-specific-dynamics-rbi-intervention-import-bill-sensitivi",
           "title": "INR-specific dynamics: RBI intervention, import-bill sensitivity to crude",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -255,7 +255,7 @@
           "id": "geointel-economics-finance/currencies/currency-as-a-transmission-channel-for-geopolitical-shocks",
           "title": "Currency as a transmission channel for geopolitical shocks",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }
@@ -270,7 +270,7 @@
           "id": "geointel-economics-finance/investing-fundamentals/risk-vs-return-diversification-basics",
           "title": "Risk vs return, diversification basics",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -278,7 +278,7 @@
           "id": "geointel-economics-finance/investing-fundamentals/time-horizon-and-position-sizing-concepts",
           "title": "Time horizon and position sizing concepts",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         },
@@ -286,7 +286,7 @@
           "id": "geointel-economics-finance/investing-fundamentals/trader-s-reaction-window-vs-long-term-investor-s-horizon",
           "title": "Trader's reaction window vs long-term investor's horizon",
           "difficulty": "INTERMEDIATE",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 20,
           "prerequisites": [],
           "resources": []
         }

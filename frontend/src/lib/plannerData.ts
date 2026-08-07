@@ -175,21 +175,21 @@ function buildModuleInfos(
 }
 
 /**
- * Picks the day's FOCUS module, biased toward the GeoIntel AI track (the primary
- * mastery goal). Ordering, most-important key first:
+ * Ranks modules for the FOCUS block, biased toward the GeoIntel AI track (the
+ * primary mastery goal). Ordering, most-important key first:
  *   1. AI-track modules lead every other course.
  *   2. Within a tier, finish-what-you-started: an already-started module wins so
  *      you get closure and compounding depth before opening a new thread.
  *   3. Among started modules, the one closest to done.
  *   4. Otherwise the earliest unstarted module in the curriculum.
- * Non-AI tracks only reach the focus block once the AI track has no actionable
- * modules left; until then they keep advancing via the daily variety spark.
+ * The day's focus starts at the top of this list and continues down it (across
+ * modules, AI first) until the focus budget is spent — so a big budget covers
+ * more of the AI track in a day rather than leaving the plan half-empty. Non-AI
+ * tracks are reached only after the AI track has no actionable modules left;
+ * until then they keep advancing via the daily variety spark.
  */
-function pickFocusModule(modulesWithWork: ModuleInfo[]): ModuleInfo | null {
-  if (modulesWithWork.length === 0) {
-    return null;
-  }
-  const ranked = [...modulesWithWork].sort((a, b) => {
+function rankFocusModules(modulesWithWork: ModuleInfo[]): ModuleInfo[] {
+  return [...modulesWithWork].sort((a, b) => {
     const aBias = a.courseId === FOCUS_BIAS_COURSE_ID ? 0 : 1;
     const bBias = b.courseId === FOCUS_BIAS_COURSE_ID ? 0 : 1;
     if (aBias !== bBias) {
@@ -206,7 +206,6 @@ function pickFocusModule(modulesWithWork: ModuleInfo[]): ModuleInfo | null {
     }
     return a.order - b.order; // earliest in the curriculum
   });
-  return ranked[0];
 }
 
 /**
@@ -331,9 +330,11 @@ function toStoredSection(section: PlanSection): StoredPlanSection {
  * The shape of a day is "deep focus + a variety spark":
  *   1. REVIEW  — one quick recall of a hard topic finished a few days ago
  *                (spaced repetition), only on days with room to spare.
- *   2. FOCUS   — the bulk of the day on a single coherent module, prioritising
- *                one you've already started (finish-what-you-started), ordered
- *                easy → hard (difficulty ramp) so you build momentum.
+ *   2. FOCUS   — the bulk of the day on the AI track, prioritising a module
+ *                you've already started (finish-what-you-started), ordered
+ *                easy → hard (difficulty ramp) so you build momentum. On larger
+ *                budgets it continues into the next AI modules, each its own
+ *                labelled block, so the day fills with depth.
  *   3. VARIETY — one taste of a different track to stay interested; the track
  *                rotates day to day so breadth still advances.
  * Every block carries a one-line "why this" reason so the plan never feels
@@ -384,32 +385,56 @@ export async function computeTodaysPlan(): Promise<TodaysPlan> {
     }
   }
 
-  const focus = pickFocusModule(modulesWithWork);
+  const rankedFocus = rankFocusModules(modulesWithWork);
+  const primaryFocus = rankedFocus[0] ?? null;
 
   // 2. FOCUS — the deep-work core of the day. It gets everything except a small
-  // reserve for the variety spark, but never less than half the day.
-  if (focus) {
+  // reserve for the variety spark, but never less than half the day. On larger
+  // budgets it flows down the ranked list (AI track first) across consecutive
+  // modules — each its own labelled block — so the day fills with real depth
+  // instead of stopping when one module runs out.
+  if (primaryFocus) {
     const focusBudget = allowExtras
       ? Math.max(remaining - VARIETY_RESERVE, Math.round(remaining * 0.5))
       : remaining;
-    const focusDoneToday = focus.topics.filter(completedToday);
-    const focusPicked = fitToBudget(rampByDifficulty(focus.actionable), focusBudget);
-    const focusTopics = [...focusDoneToday, ...focusPicked];
-    if (focusTopics.length > 0) {
-      sections.push({
-        kind: "FOCUS",
-        title: focus.moduleTitle,
-        courseTitle: focus.courseTitle,
-        reason: focusReason(focus),
-        topics: focusTopics,
-      });
+    let focusUsed = 0;
+    for (const module of rankedFocus) {
+      if (focusUsed >= focusBudget) {
+        break;
+      }
+      const isFirstBlock = focusUsed === 0;
+      const moduleDoneToday = module.topics.filter(completedToday);
+      // Only the very first block force-includes a topic (so the day is never
+      // empty); later blocks add only what genuinely fits the budget left.
+      const picked = fitToBudget(
+        rampByDifficulty(module.actionable),
+        focusBudget - focusUsed,
+        Infinity,
+        isFirstBlock,
+      );
+      const blockTopics = [...moduleDoneToday, ...picked];
+      if (blockTopics.length > 0) {
+        sections.push({
+          kind: "FOCUS",
+          title: module.moduleTitle,
+          courseTitle: module.courseTitle,
+          reason: focusReason(module),
+          topics: blockTopics,
+        });
+      }
+      focusUsed += picked.reduce((sum, t) => sum + t.estimatedMinutes, 0);
+      // Nothing from this module fit the remaining budget — later ones won't
+      // either in practice, so stop opening new blocks.
+      if (picked.length === 0 && !isFirstBlock) {
+        break;
+      }
     }
-    remaining -= focusPicked.reduce((sum, t) => sum + t.estimatedMinutes, 0);
+    remaining -= focusUsed;
   }
 
   // 3. VARIETY — a rotating spark from another track, on days with room left.
-  if (focus && allowExtras && remaining >= 10) {
-    const variety = pickVarietyModule(modulesWithWork, focus, daySeed, remaining);
+  if (primaryFocus && allowExtras && remaining >= 10) {
+    const variety = pickVarietyModule(modulesWithWork, primaryFocus, daySeed, remaining);
     if (variety) {
       const varietyDoneToday = variety.topics.filter(completedToday);
       const varietyPicked = fitToBudget(byMinutesAsc(variety.actionable), remaining, MAX_VARIETY_TOPICS, false);
@@ -419,7 +444,7 @@ export async function computeTodaysPlan(): Promise<TodaysPlan> {
           kind: "VARIETY",
           title: variety.moduleTitle,
           courseTitle: variety.courseTitle,
-          reason: varietyReason(variety, focus),
+          reason: varietyReason(variety, primaryFocus),
           topics: varietyTopics,
         });
       }
