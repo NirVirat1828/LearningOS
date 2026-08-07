@@ -1,0 +1,161 @@
+{
+  "id": "system-design",
+  "title": "System Design Mega-Course",
+  "description": "Interview prep and a working design reference, every module anchored to GeoIntel's real architecture (Nginx, FastAPI, PostgreSQL + pgvector, Redis, Docker Compose).",
+  "modules": [
+    {
+      "id": "system-design/prerequisites",
+      "title": "Module 0 — Prerequisites",
+      "description": "The vocabulary and building blocks every later module assumes you already have.",
+      "topics": [
+        { "id": "system-design/prerequisites/networking-fundamentals", "title": "Networking fundamentals (TCP/IP, DNS, how a request travels)", "difficulty": "BEGINNER", "estimatedMinutes": 30, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/http-fundamentals", "title": "HTTP fundamentals (methods, status codes, headers, statelessness)", "difficulty": "BEGINNER", "estimatedMinutes": 25, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/tls-ssl-basics", "title": "TLS/SSL basics (handshake, certificates, why HTTPS matters)", "difficulty": "BEGINNER", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/http-fundamentals"], "resources": [] },
+        { "id": "system-design/prerequisites/rest-api-design", "title": "REST API design principles", "difficulty": "BEGINNER", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/http-fundamentals"], "resources": [] },
+        { "id": "system-design/prerequisites/concurrency-vs-parallelism", "title": "Concurrency vs parallelism", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/linux-fundamentals", "title": "Linux fundamentals for backend engineers", "difficulty": "BEGINNER", "estimatedMinutes": 30, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/docker-fundamentals", "title": "Docker fundamentals (images, containers, volumes, networking)", "difficulty": "BEGINNER", "estimatedMinutes": 35, "prerequisites": ["system-design/prerequisites/linux-fundamentals"], "resources": [] },
+        { "id": "system-design/prerequisites/scalability-vocabulary", "title": "Scalability vocabulary (vertical vs horizontal, throughput vs latency)", "difficulty": "BEGINNER", "estimatedMinutes": 20, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/proxies-reverse-proxies", "title": "Proxies and reverse proxies", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/networking-fundamentals"], "resources": [] },
+        { "id": "system-design/prerequisites/cdn-fundamentals", "title": "CDN fundamentals", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/proxies-reverse-proxies"], "resources": [] },
+        { "id": "system-design/prerequisites/authn-vs-authz", "title": "Authentication vs authorization", "difficulty": "BEGINNER", "estimatedMinutes": 25, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/database-fundamentals", "title": "Database fundamentals (relational vs non-relational, ACID)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": [], "resources": [] },
+        { "id": "system-design/prerequisites/cap-pacelc-intro", "title": "Introduction to CAP theorem and PACELC", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/database-fundamentals"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/request-journey",
+      "title": "Module 1 — The Request Journey",
+      "description": "Traces one request end-to-end through the whole stack.",
+      "topics": [
+        { "id": "system-design/request-journey/client-dns-resolution", "title": "Client → DNS resolution", "difficulty": "BEGINNER", "estimatedMinutes": 20, "prerequisites": ["system-design/prerequisites/networking-fundamentals"], "resources": [] },
+        { "id": "system-design/request-journey/dns-to-load-balancer", "title": "DNS → Load balancer / reverse proxy", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/client-dns-resolution"], "resources": [] },
+        { "id": "system-design/request-journey/reverse-proxy-to-app-server", "title": "Reverse proxy → Application server", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/dns-to-load-balancer"], "resources": [] },
+        { "id": "system-design/request-journey/app-server-to-business-logic", "title": "Application server → Business logic", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/reverse-proxy-to-app-server"], "resources": [] },
+        { "id": "system-design/request-journey/business-logic-to-db-query", "title": "Business logic → Database query", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/app-server-to-business-logic"], "resources": [] },
+        { "id": "system-design/request-journey/db-to-response-assembly", "title": "Database → Response assembly", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/business-logic-to-db-query"], "resources": [] },
+        { "id": "system-design/request-journey/response-to-client", "title": "Response → Client (and what happens on the way back)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 20, "prerequisites": ["system-design/request-journey/db-to-response-assembly"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/load-balancing",
+      "title": "Module 2 — Load Balancing",
+      "description": "Deep dive into distributing traffic across servers.",
+      "topics": [
+        { "id": "system-design/load-balancing/fundamentals", "title": "Load Balancing Fundamentals", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/request-journey/dns-to-load-balancer"], "resources": [{ "title": "System Design Interview, Vol. 1 (Alex Xu)", "url": "https://www.amazon.com/dp/B08CMF2CQF", "type": "BOOK" }] },
+        { "id": "system-design/load-balancing/algorithms", "title": "Load Balancing Algorithms (Round Robin, Least Connections, IP Hash, Geo)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 35, "prerequisites": ["system-design/load-balancing/fundamentals"], "resources": [] },
+        { "id": "system-design/load-balancing/l4-vs-l7", "title": "Layer 4 vs Layer 7 Load Balancing", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/load-balancing/fundamentals"], "resources": [] },
+        { "id": "system-design/load-balancing/health-checks", "title": "Health Checks & Failure Detection", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/load-balancing/fundamentals"], "resources": [] },
+        { "id": "system-design/load-balancing/sticky-sessions", "title": "Sticky Sessions & Session Affinity", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/load-balancing/algorithms"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/caching",
+      "title": "Module 3 — Caching Layers",
+      "description": "Builds directly on GeoIntel's existing Redis deployment.",
+      "topics": [
+        { "id": "system-design/caching/fundamentals", "title": "Caching Fundamentals (hit/miss, TTL)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/load-balancing/fundamentals"], "resources": [] },
+        { "id": "system-design/caching/strategies", "title": "Caching Strategies (cache-aside, read/write-through, write-back)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 35, "prerequisites": ["system-design/caching/fundamentals"], "resources": [] },
+        { "id": "system-design/caching/invalidation", "title": "Cache Invalidation", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/caching/strategies"], "resources": [] },
+        { "id": "system-design/caching/eviction-policies", "title": "Eviction Policies (LRU, LFU, FIFO, MRU)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/caching/fundamentals"], "resources": [] },
+        { "id": "system-design/caching/distributed-caching", "title": "Distributed Caching & Cache Coherence (stampede, thundering herd)", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/caching/invalidation"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/message-queues",
+      "title": "Module 4 — Message Queues & Async Processing",
+      "description": "Decoupling slow enrichment work from the request/response cycle.",
+      "topics": [
+        { "id": "system-design/message-queues/why-async", "title": "Why Async? The Synchronous Bottleneck", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/caching/fundamentals"], "resources": [] },
+        { "id": "system-design/message-queues/queues-vs-streams", "title": "Queues vs Streams (RabbitMQ-style vs Kafka-style)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 35, "prerequisites": ["system-design/message-queues/why-async"], "resources": [] },
+        { "id": "system-design/message-queues/pub-sub", "title": "Publish/Subscribe Patterns (fan-out, topic routing)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/message-queues/queues-vs-streams"], "resources": [] },
+        { "id": "system-design/message-queues/worker-pools", "title": "Worker Pools & Consumer Patterns (competing consumers, DLQ intro)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/message-queues/pub-sub"], "resources": [] },
+        { "id": "system-design/message-queues/geointel-async-pipeline", "title": "Applying It to GeoIntel: async enrichment pipeline", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/message-queues/worker-pools"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/indexing",
+      "title": "Module 5 — Database Indexing & Query Optimization",
+      "description": "Trade-off-heavy; source material is thin here.",
+      "topics": [
+        { "id": "system-design/indexing/why-indexes", "title": "Why Indexes Exist (the full-table-scan problem)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/prerequisites/database-fundamentals"], "resources": [] },
+        { "id": "system-design/indexing/b-tree-indexes", "title": "B-Tree Indexes", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/indexing/why-indexes"], "resources": [] },
+        { "id": "system-design/indexing/query-planners-explain", "title": "Query Planners & EXPLAIN", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/indexing/b-tree-indexes"], "resources": [] },
+        { "id": "system-design/indexing/composite-partial-indexes", "title": "Composite & Partial Indexes", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/indexing/b-tree-indexes"], "resources": [] },
+        { "id": "system-design/indexing/pgvector-indexing", "title": "pgvector-Specific Indexing (HNSW vs IVFFlat)", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/indexing/composite-partial-indexes"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/read-replicas",
+      "title": "Module 6 — Read Replicas & Read/Write Scaling",
+      "description": "Deep trade-off reasoning around consistency.",
+      "topics": [
+        { "id": "system-design/read-replicas/why-scale-reads", "title": "Why Scale Reads Separately", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/indexing/why-indexes"], "resources": [] },
+        { "id": "system-design/read-replicas/replication-mechanics", "title": "Replication Mechanics (sync vs async, leader/follower)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/read-replicas/why-scale-reads"], "resources": [] },
+        { "id": "system-design/read-replicas/replication-lag", "title": "Replication Lag", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/read-replicas/replication-mechanics"], "resources": [] },
+        { "id": "system-design/read-replicas/read-routing", "title": "Read Routing Strategies (read-your-writes, sticky reads)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/read-replicas/replication-lag"], "resources": [] },
+        { "id": "system-design/read-replicas/failover-promotion", "title": "Failover & Promotion (split-brain risk)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/read-replicas/replication-mechanics"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/backpressure",
+      "title": "Module 7 — Backpressure & Rate Limiting",
+      "description": "Weak source coverage; needs supplementation.",
+      "topics": [
+        { "id": "system-design/backpressure/why-say-no", "title": "Why Systems Need to Say No (cascading overload)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/message-queues/why-async"], "resources": [] },
+        { "id": "system-design/backpressure/token-leaky-bucket", "title": "Token Bucket & Leaky Bucket", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/backpressure/why-say-no"], "resources": [] },
+        { "id": "system-design/backpressure/window-algorithms", "title": "Fixed Window, Sliding Window Log, Sliding Window Counter", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/backpressure/token-leaky-bucket"], "resources": [] },
+        { "id": "system-design/backpressure/load-shedding", "title": "Load Shedding (graceful degradation)", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/backpressure/why-say-no"], "resources": [] },
+        { "id": "system-design/backpressure/geointel-rate-limiting", "title": "Applying It to GeoIntel: Redis-backed per-key limiter", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/backpressure/window-algorithms", "system-design/load-balancing/sticky-sessions"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/idempotency",
+      "title": "Module 8 — Idempotency in Distributed Jobs",
+      "description": "Weak source coverage; needs supplementation.",
+      "topics": [
+        { "id": "system-design/idempotency/at-least-once-breaks", "title": "Why \"At-Least-Once\" Breaks Things", "difficulty": "INTERMEDIATE", "estimatedMinutes": 25, "prerequisites": ["system-design/message-queues/worker-pools"], "resources": [] },
+        { "id": "system-design/idempotency/idempotency-keys", "title": "Idempotency Keys", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/idempotency/at-least-once-breaks"], "resources": [] },
+        { "id": "system-design/idempotency/deduplication", "title": "Deduplication Strategies", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/idempotency/idempotency-keys"], "resources": [] },
+        { "id": "system-design/idempotency/delivery-guarantees", "title": "Exactly-Once vs At-Least-Once vs At-Most-Once", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/idempotency/at-least-once-breaks"], "resources": [] },
+        { "id": "system-design/idempotency/geointel-idempotent-worker", "title": "Applying It to GeoIntel: safe-to-retry enrichment worker", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/idempotency/deduplication", "system-design/message-queues/geointel-async-pipeline"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/cap-theorem",
+      "title": "Module 9 — CAP Theorem (Applied, In-Depth)",
+      "description": "Revisits the Module 0 introduction with real applied trade-off analysis.",
+      "topics": [
+        { "id": "system-design/cap-theorem/cap-recap", "title": "Recap: Consistency, Availability, Partition Tolerance", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/prerequisites/cap-pacelc-intro"], "resources": [] },
+        { "id": "system-design/cap-theorem/pacelc-extended", "title": "PACELC Extended (latency vs consistency without a partition)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/cap-theorem/cap-recap"], "resources": [] },
+        { "id": "system-design/cap-theorem/cp-in-practice", "title": "CP Systems in Practice", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/cap-theorem/cap-recap"], "resources": [] },
+        { "id": "system-design/cap-theorem/ap-in-practice", "title": "AP Systems in Practice", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/cap-theorem/cap-recap"], "resources": [] },
+        { "id": "system-design/cap-theorem/choosing-for-geointel", "title": "Choosing for GeoIntel (Postgres, Redis, search index on the CAP spectrum)", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/cap-theorem/cp-in-practice", "system-design/cap-theorem/ap-in-practice", "system-design/read-replicas/replication-lag"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/designing-for-failure",
+      "title": "Module 10 — Designing for Failure",
+      "description": "Resilience patterns for the whole stack.",
+      "topics": [
+        { "id": "system-design/designing-for-failure/retries-backoff", "title": "Retries with Backoff (exponential, jitter, retry storms)", "difficulty": "INTERMEDIATE", "estimatedMinutes": 30, "prerequisites": ["system-design/idempotency/idempotency-keys"], "resources": [] },
+        { "id": "system-design/designing-for-failure/circuit-breakers", "title": "Circuit Breakers (closed/open/half-open)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/designing-for-failure/retries-backoff"], "resources": [] },
+        { "id": "system-design/designing-for-failure/dead-letter-queues", "title": "Dead-Letter Queues (full treatment)", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/message-queues/worker-pools"], "resources": [] },
+        { "id": "system-design/designing-for-failure/timeouts-bulkheads", "title": "Timeouts & Bulkheads (isolating failure domains)", "difficulty": "ADVANCED", "estimatedMinutes": 35, "prerequisites": ["system-design/designing-for-failure/circuit-breakers"], "resources": [] },
+        { "id": "system-design/designing-for-failure/chaos-engineering", "title": "Chaos Engineering Basics", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/designing-for-failure/timeouts-bulkheads"], "resources": [] }
+      ]
+    },
+    {
+      "id": "system-design/case-study",
+      "title": "Module 11 — Case Study: Scaling GeoIntel",
+      "description": "The synthesis module. No new concepts — every prior module applied to one architecture.",
+      "topics": [
+        { "id": "system-design/case-study/requirements-constraints", "title": "Requirements & Constraints (scale targets, latency SLOs)", "difficulty": "ADVANCED", "estimatedMinutes": 30, "prerequisites": ["system-design/prerequisites/scalability-vocabulary"], "resources": [] },
+        { "id": "system-design/case-study/high-level-architecture", "title": "High-Level Architecture (the full system diagram)", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/case-study/requirements-constraints", "system-design/load-balancing/fundamentals", "system-design/caching/fundamentals", "system-design/message-queues/geointel-async-pipeline"], "resources": [] },
+        { "id": "system-design/case-study/scaling-ingestion", "title": "Scaling the Ingestion Pipeline", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/case-study/high-level-architecture", "system-design/backpressure/geointel-rate-limiting", "system-design/idempotency/geointel-idempotent-worker"], "resources": [] },
+        { "id": "system-design/case-study/scaling-search-storage", "title": "Scaling Search & Storage", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/case-study/high-level-architecture", "system-design/indexing/pgvector-indexing", "system-design/read-replicas/read-routing", "system-design/cap-theorem/choosing-for-geointel"], "resources": [] },
+        { "id": "system-design/case-study/failure-scenarios", "title": "Failure Scenarios Walkthrough", "difficulty": "ADVANCED", "estimatedMinutes": 40, "prerequisites": ["system-design/case-study/high-level-architecture", "system-design/designing-for-failure/chaos-engineering"], "resources": [] }
+      ]
+    }
+  ]
+}

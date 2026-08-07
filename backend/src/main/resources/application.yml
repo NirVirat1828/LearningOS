@@ -1,0 +1,59 @@
+server:
+  port: 8080
+
+# ─── Active profile ──────────────────────────────────────────────────────────
+# Switch between planner implementations by changing the active profile:
+#   rule-based  → uses RuleBasedPlannerService (no API key needed)
+#   llm         → uses LlmPlannerService + GeminiClient (requires GEMINI_API_KEY)
+#
+# Override at runtime:
+#   SPRING_PROFILES_ACTIVE=llm ./mvnw spring-boot:run
+spring:
+  profiles:
+    active: rule-based   # default; override with env var or CLI flag
+
+  application:
+    name: learningos-backend
+
+  datasource:
+    url: jdbc:h2:mem:learningos
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  jackson:
+    default-property-inclusion: non_null
+
+# Application-specific configuration, e.g. allowed origins for CORS.
+learningos:
+  cors:
+    allowed-origins: http://localhost:5173
+  planner:
+    # Max PENDING tasks the daily planner keeps scheduled for "today" at once.
+    daily-capacity: 5
+
+# ─── LLM / Gemini configuration ──────────────────────────────────────────────
+# The API key is read from the GEMINI_API_KEY environment variable.
+# NEVER hard-code a real key here — this file is committed to version control.
+#
+# Set it for local development:
+#   export GEMINI_API_KEY="your-key-here"
+#
+# The gemini.api.key property is only required when spring.profiles.active=llm.
+gemini:
+  api:
+    key: ${GEMINI_API_KEY:changeme}   # 'changeme' is safe default for rule-based profile

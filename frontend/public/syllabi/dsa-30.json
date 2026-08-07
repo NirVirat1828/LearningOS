@@ -1,0 +1,1524 @@
+{
+  "id": "dsa-30",
+  "title": "DSA 30-Day Interview Sprint",
+  "description": "30-day, 5-sprint interview prep drill: arrays & hashing, windows & stacks, trees & search, graphs & backtracking, heaps & DP.",
+  "modules": [
+    {
+      "id": "dsa-30/sprint-1",
+      "title": "Sprint 1 \u2014 Arrays, Hashing & Pointers",
+      "description": "Master the fundamentals of data manipulation and pointer techniques.",
+      "topics": [
+        {
+          "id": "dsa-30/sprint-1/two-sum",
+          "title": "Day 1: Two Sum",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Two Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/two-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/valid-anagram",
+          "title": "Day 1: Valid Anagram",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Valid Anagram \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/valid-anagram/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/contains-duplicate",
+          "title": "Day 1: Contains Duplicate",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Contains Duplicate \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/contains-duplicate/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/group-anagrams",
+          "title": "Day 2: Group Anagrams",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/two-sum",
+            "dsa-30/sprint-1/valid-anagram",
+            "dsa-30/sprint-1/contains-duplicate"
+          ],
+          "resources": [
+            {
+              "title": "Group Anagrams \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/group-anagrams/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/top-k-frequent-elements",
+          "title": "Day 2: Top K Frequent Elements",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/two-sum",
+            "dsa-30/sprint-1/valid-anagram",
+            "dsa-30/sprint-1/contains-duplicate"
+          ],
+          "resources": [
+            {
+              "title": "Top K Frequent Elements \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/product-of-array-except-self",
+          "title": "Day 2: Product of Array Except Self",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/two-sum",
+            "dsa-30/sprint-1/valid-anagram",
+            "dsa-30/sprint-1/contains-duplicate"
+          ],
+          "resources": [
+            {
+              "title": "Product of Array Except Self \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/product-of-array-except-self/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/valid-palindrome",
+          "title": "Day 3: Valid Palindrome",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-1/group-anagrams",
+            "dsa-30/sprint-1/top-k-frequent-elements",
+            "dsa-30/sprint-1/product-of-array-except-self"
+          ],
+          "resources": [
+            {
+              "title": "Valid Palindrome \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/valid-palindrome/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/two-sum-ii",
+          "title": "Day 3: Two Sum II",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/group-anagrams",
+            "dsa-30/sprint-1/top-k-frequent-elements",
+            "dsa-30/sprint-1/product-of-array-except-self"
+          ],
+          "resources": [
+            {
+              "title": "Two Sum II \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/two-sum-ii/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/move-zeroes",
+          "title": "Day 3: Move Zeroes",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-1/group-anagrams",
+            "dsa-30/sprint-1/top-k-frequent-elements",
+            "dsa-30/sprint-1/product-of-array-except-self"
+          ],
+          "resources": [
+            {
+              "title": "Move Zeroes \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/move-zeroes/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/3sum",
+          "title": "Day 4: 3Sum",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/valid-palindrome",
+            "dsa-30/sprint-1/two-sum-ii",
+            "dsa-30/sprint-1/move-zeroes"
+          ],
+          "resources": [
+            {
+              "title": "3Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/3sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/container-with-most-water",
+          "title": "Day 4: Container With Most Water",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/valid-palindrome",
+            "dsa-30/sprint-1/two-sum-ii",
+            "dsa-30/sprint-1/move-zeroes"
+          ],
+          "resources": [
+            {
+              "title": "Container With Most Water \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/container-with-most-water/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/sort-colors",
+          "title": "Day 4: Sort Colors",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/valid-palindrome",
+            "dsa-30/sprint-1/two-sum-ii",
+            "dsa-30/sprint-1/move-zeroes"
+          ],
+          "resources": [
+            {
+              "title": "Sort Colors \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/sort-colors/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/encode-and-decode-strings",
+          "title": "Day 5: Encode and Decode Strings",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/3sum",
+            "dsa-30/sprint-1/container-with-most-water",
+            "dsa-30/sprint-1/sort-colors"
+          ],
+          "resources": [
+            {
+              "title": "Encode and Decode Strings \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/longest-consecutive-sequence",
+          "title": "Day 5: Longest Consecutive Sequence",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/3sum",
+            "dsa-30/sprint-1/container-with-most-water",
+            "dsa-30/sprint-1/sort-colors"
+          ],
+          "resources": [
+            {
+              "title": "Longest Consecutive Sequence \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/trapping-rain-water",
+          "title": "Day 6: Trapping Rain Water",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-1/encode-and-decode-strings",
+            "dsa-30/sprint-1/longest-consecutive-sequence"
+          ],
+          "resources": [
+            {
+              "title": "Trapping Rain Water \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/trapping-rain-water/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/valid-triangle-number",
+          "title": "Day 6: Valid Triangle Number",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/encode-and-decode-strings",
+            "dsa-30/sprint-1/longest-consecutive-sequence"
+          ],
+          "resources": [
+            {
+              "title": "Valid Triangle Number \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/valid-triangle-number/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-1/revisit-two-sum",
+          "title": "Day 6: Revisit \u2014 Two Sum",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-1/encode-and-decode-strings",
+            "dsa-30/sprint-1/longest-consecutive-sequence"
+          ],
+          "resources": [
+            {
+              "title": "Revisit \u2014 Two Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/revisit-two-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa-30/sprint-2",
+      "title": "Sprint 2 \u2014 Windows, Stacks & Lists",
+      "description": "Build proficiency in linear data structures and windowing techniques.",
+      "topics": [
+        {
+          "id": "dsa-30/sprint-2/max-sum-subarray-of-size-k",
+          "title": "Day 7: Max Sum Subarray of Size K",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-1/trapping-rain-water",
+            "dsa-30/sprint-1/valid-triangle-number",
+            "dsa-30/sprint-1/revisit-two-sum"
+          ],
+          "resources": [
+            {
+              "title": "Max Sum Subarray of Size K \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/max-sum-subarray-of-size-k/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/longest-substring-without-repeats",
+          "title": "Day 7: Longest Substring Without Repeats",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/trapping-rain-water",
+            "dsa-30/sprint-1/valid-triangle-number",
+            "dsa-30/sprint-1/revisit-two-sum"
+          ],
+          "resources": [
+            {
+              "title": "Longest Substring Without Repeats \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/longest-substring-without-repeats/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/permutation-in-string",
+          "title": "Day 7: Permutation in String",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-1/trapping-rain-water",
+            "dsa-30/sprint-1/valid-triangle-number",
+            "dsa-30/sprint-1/revisit-two-sum"
+          ],
+          "resources": [
+            {
+              "title": "Permutation in String \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/permutation-in-string/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/longest-repeating-character-replacement",
+          "title": "Day 8: Longest Repeating Character Replacement",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/max-sum-subarray-of-size-k",
+            "dsa-30/sprint-2/longest-substring-without-repeats",
+            "dsa-30/sprint-2/permutation-in-string"
+          ],
+          "resources": [
+            {
+              "title": "Longest Repeating Character Replacement \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/max-points-from-cards",
+          "title": "Day 8: Max Points From Cards",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/max-sum-subarray-of-size-k",
+            "dsa-30/sprint-2/longest-substring-without-repeats",
+            "dsa-30/sprint-2/permutation-in-string"
+          ],
+          "resources": [
+            {
+              "title": "Max Points From Cards \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/max-points-from-cards/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/max-sum-of-distinct-subarrays-size-k",
+          "title": "Day 8: Max Sum of Distinct Subarrays, Size K",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/max-sum-subarray-of-size-k",
+            "dsa-30/sprint-2/longest-substring-without-repeats",
+            "dsa-30/sprint-2/permutation-in-string"
+          ],
+          "resources": [
+            {
+              "title": "Max Sum of Distinct Subarrays, Size K \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/max-sum-of-distinct-subarrays-size-k/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/minimum-window-substring",
+          "title": "Day 9: Minimum Window Substring",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-2/longest-repeating-character-replacement",
+            "dsa-30/sprint-2/max-points-from-cards",
+            "dsa-30/sprint-2/max-sum-of-distinct-subarrays-size-k"
+          ],
+          "resources": [
+            {
+              "title": "Minimum Window Substring \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/minimum-window-substring/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/sliding-window-maximum",
+          "title": "Day 9: Sliding Window Maximum",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-2/longest-repeating-character-replacement",
+            "dsa-30/sprint-2/max-points-from-cards",
+            "dsa-30/sprint-2/max-sum-of-distinct-subarrays-size-k"
+          ],
+          "resources": [
+            {
+              "title": "Sliding Window Maximum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/valid-parentheses",
+          "title": "Day 10: Valid Parentheses",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-2/minimum-window-substring",
+            "dsa-30/sprint-2/sliding-window-maximum"
+          ],
+          "resources": [
+            {
+              "title": "Valid Parentheses \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/valid-parentheses/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/min-stack",
+          "title": "Day 10: Min Stack",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/minimum-window-substring",
+            "dsa-30/sprint-2/sliding-window-maximum"
+          ],
+          "resources": [
+            {
+              "title": "Min Stack \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/min-stack/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/evaluate-reverse-polish-notation",
+          "title": "Day 10: Evaluate Reverse Polish Notation",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/minimum-window-substring",
+            "dsa-30/sprint-2/sliding-window-maximum"
+          ],
+          "resources": [
+            {
+              "title": "Evaluate Reverse Polish Notation \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/daily-temperatures",
+          "title": "Day 11: Daily Temperatures",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/valid-parentheses",
+            "dsa-30/sprint-2/min-stack",
+            "dsa-30/sprint-2/evaluate-reverse-polish-notation"
+          ],
+          "resources": [
+            {
+              "title": "Daily Temperatures \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/daily-temperatures/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/decode-string",
+          "title": "Day 11: Decode String",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/valid-parentheses",
+            "dsa-30/sprint-2/min-stack",
+            "dsa-30/sprint-2/evaluate-reverse-polish-notation"
+          ],
+          "resources": [
+            {
+              "title": "Decode String \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/decode-string/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/largest-rectangle-in-histogram",
+          "title": "Day 11: Largest Rectangle in Histogram",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-2/valid-parentheses",
+            "dsa-30/sprint-2/min-stack",
+            "dsa-30/sprint-2/evaluate-reverse-polish-notation"
+          ],
+          "resources": [
+            {
+              "title": "Largest Rectangle in Histogram \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/reverse-linked-list",
+          "title": "Day 12: Reverse Linked List",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-2/daily-temperatures",
+            "dsa-30/sprint-2/decode-string",
+            "dsa-30/sprint-2/largest-rectangle-in-histogram"
+          ],
+          "resources": [
+            {
+              "title": "Reverse Linked List \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/reverse-linked-list/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/merge-two-sorted-lists",
+          "title": "Day 12: Merge Two Sorted Lists",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-2/daily-temperatures",
+            "dsa-30/sprint-2/decode-string",
+            "dsa-30/sprint-2/largest-rectangle-in-histogram"
+          ],
+          "resources": [
+            {
+              "title": "Merge Two Sorted Lists \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-2/linked-list-cycle",
+          "title": "Day 12: Linked List Cycle",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-2/daily-temperatures",
+            "dsa-30/sprint-2/decode-string",
+            "dsa-30/sprint-2/largest-rectangle-in-histogram"
+          ],
+          "resources": [
+            {
+              "title": "Linked List Cycle \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/linked-list-cycle/",
+              "type": "ARTICLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa-30/sprint-3",
+      "title": "Sprint 3 \u2014 Search, Trees & Recursion",
+      "description": "Deepen your understanding of hierarchical data and efficient searching.",
+      "topics": [
+        {
+          "id": "dsa-30/sprint-3/reorder-list",
+          "title": "Day 13: Reorder List",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/reverse-linked-list",
+            "dsa-30/sprint-2/merge-two-sorted-lists",
+            "dsa-30/sprint-2/linked-list-cycle"
+          ],
+          "resources": [
+            {
+              "title": "Reorder List \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/reorder-list/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/remove-nth-node-from-end",
+          "title": "Day 13: Remove Nth Node From End",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/reverse-linked-list",
+            "dsa-30/sprint-2/merge-two-sorted-lists",
+            "dsa-30/sprint-2/linked-list-cycle"
+          ],
+          "resources": [
+            {
+              "title": "Remove Nth Node From End \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/remove-nth-node-from-end/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/add-two-numbers",
+          "title": "Day 13: Add Two Numbers",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-2/reverse-linked-list",
+            "dsa-30/sprint-2/merge-two-sorted-lists",
+            "dsa-30/sprint-2/linked-list-cycle"
+          ],
+          "resources": [
+            {
+              "title": "Add Two Numbers \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/add-two-numbers/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/binary-search",
+          "title": "Day 14: Binary Search",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/reorder-list",
+            "dsa-30/sprint-3/remove-nth-node-from-end",
+            "dsa-30/sprint-3/add-two-numbers"
+          ],
+          "resources": [
+            {
+              "title": "Binary Search \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/binary-search/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/search-a-2d-matrix",
+          "title": "Day 14: Search a 2D Matrix",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/reorder-list",
+            "dsa-30/sprint-3/remove-nth-node-from-end",
+            "dsa-30/sprint-3/add-two-numbers"
+          ],
+          "resources": [
+            {
+              "title": "Search a 2D Matrix \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/find-minimum-in-rotated-sorted-array",
+          "title": "Day 14: Find Minimum in Rotated Sorted Array",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/reorder-list",
+            "dsa-30/sprint-3/remove-nth-node-from-end",
+            "dsa-30/sprint-3/add-two-numbers"
+          ],
+          "resources": [
+            {
+              "title": "Find Minimum in Rotated Sorted Array \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/search-in-rotated-sorted-array",
+          "title": "Day 15: Search in Rotated Sorted Array",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/binary-search",
+            "dsa-30/sprint-3/search-a-2d-matrix",
+            "dsa-30/sprint-3/find-minimum-in-rotated-sorted-array"
+          ],
+          "resources": [
+            {
+              "title": "Search in Rotated Sorted Array \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/apple-harvest-koko-eating-bananas",
+          "title": "Day 15: Apple Harvest (Koko Eating Bananas)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/binary-search",
+            "dsa-30/sprint-3/search-a-2d-matrix",
+            "dsa-30/sprint-3/find-minimum-in-rotated-sorted-array"
+          ],
+          "resources": [
+            {
+              "title": "Apple Harvest (Koko Eating Bananas) \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/apple-harvest-koko-eating-bananas/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/split-array-largest-sum",
+          "title": "Day 15: Split Array Largest Sum",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-3/binary-search",
+            "dsa-30/sprint-3/search-a-2d-matrix",
+            "dsa-30/sprint-3/find-minimum-in-rotated-sorted-array"
+          ],
+          "resources": [
+            {
+              "title": "Split Array Largest Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/split-array-largest-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/kth-smallest-in-a-sorted-matrix",
+          "title": "Day 16: Kth Smallest in a Sorted Matrix",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/search-in-rotated-sorted-array",
+            "dsa-30/sprint-3/apple-harvest-koko-eating-bananas",
+            "dsa-30/sprint-3/split-array-largest-sum"
+          ],
+          "resources": [
+            {
+              "title": "Kth Smallest in a Sorted Matrix \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/kth-smallest-in-a-sorted-matrix/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/minimum-shipping-capacity",
+          "title": "Day 16: Minimum Shipping Capacity",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/search-in-rotated-sorted-array",
+            "dsa-30/sprint-3/apple-harvest-koko-eating-bananas",
+            "dsa-30/sprint-3/split-array-largest-sum"
+          ],
+          "resources": [
+            {
+              "title": "Minimum Shipping Capacity \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/minimum-shipping-capacity/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/invert-binary-tree",
+          "title": "Day 17: Invert Binary Tree",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/kth-smallest-in-a-sorted-matrix",
+            "dsa-30/sprint-3/minimum-shipping-capacity"
+          ],
+          "resources": [
+            {
+              "title": "Invert Binary Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/invert-binary-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/maximum-depth-of-binary-tree",
+          "title": "Day 17: Maximum Depth of Binary Tree",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/kth-smallest-in-a-sorted-matrix",
+            "dsa-30/sprint-3/minimum-shipping-capacity"
+          ],
+          "resources": [
+            {
+              "title": "Maximum Depth of Binary Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/diameter-of-a-binary-tree",
+          "title": "Day 17: Diameter of a Binary Tree",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/kth-smallest-in-a-sorted-matrix",
+            "dsa-30/sprint-3/minimum-shipping-capacity"
+          ],
+          "resources": [
+            {
+              "title": "Diameter of a Binary Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/diameter-of-a-binary-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/same-tree",
+          "title": "Day 18: Same Tree",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/invert-binary-tree",
+            "dsa-30/sprint-3/maximum-depth-of-binary-tree",
+            "dsa-30/sprint-3/diameter-of-a-binary-tree"
+          ],
+          "resources": [
+            {
+              "title": "Same Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/same-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/lowest-common-ancestor-of-a-binary-tree",
+          "title": "Day 18: Lowest Common Ancestor of a Binary Tree",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/invert-binary-tree",
+            "dsa-30/sprint-3/maximum-depth-of-binary-tree",
+            "dsa-30/sprint-3/diameter-of-a-binary-tree"
+          ],
+          "resources": [
+            {
+              "title": "Lowest Common Ancestor of a Binary Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-3/validate-binary-search-tree",
+          "title": "Day 18: Validate Binary Search Tree",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/invert-binary-tree",
+            "dsa-30/sprint-3/maximum-depth-of-binary-tree",
+            "dsa-30/sprint-3/diameter-of-a-binary-tree"
+          ],
+          "resources": [
+            {
+              "title": "Validate Binary Search Tree \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+              "type": "ARTICLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa-30/sprint-4",
+      "title": "Sprint 4 \u2014 Graphs & Backtracking",
+      "description": "Tackle complex connectivity and state-space exploration problems.",
+      "topics": [
+        {
+          "id": "dsa-30/sprint-4/path-sum",
+          "title": "Day 19: Path Sum",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-3/same-tree",
+            "dsa-30/sprint-3/lowest-common-ancestor-of-a-binary-tree",
+            "dsa-30/sprint-3/validate-binary-search-tree"
+          ],
+          "resources": [
+            {
+              "title": "Path Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/path-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/path-sum-ii",
+          "title": "Day 19: Path Sum II",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-3/same-tree",
+            "dsa-30/sprint-3/lowest-common-ancestor-of-a-binary-tree",
+            "dsa-30/sprint-3/validate-binary-search-tree"
+          ],
+          "resources": [
+            {
+              "title": "Path Sum II \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/path-sum-ii/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/binary-tree-maximum-path-sum",
+          "title": "Day 19: Binary Tree Maximum Path Sum",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-3/same-tree",
+            "dsa-30/sprint-3/lowest-common-ancestor-of-a-binary-tree",
+            "dsa-30/sprint-3/validate-binary-search-tree"
+          ],
+          "resources": [
+            {
+              "title": "Binary Tree Maximum Path Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/number-of-islands",
+          "title": "Day 20: Number of Islands",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/path-sum",
+            "dsa-30/sprint-4/path-sum-ii",
+            "dsa-30/sprint-4/binary-tree-maximum-path-sum"
+          ],
+          "resources": [
+            {
+              "title": "Number of Islands \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/number-of-islands/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/copy-graph",
+          "title": "Day 20: Copy Graph",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/path-sum",
+            "dsa-30/sprint-4/path-sum-ii",
+            "dsa-30/sprint-4/binary-tree-maximum-path-sum"
+          ],
+          "resources": [
+            {
+              "title": "Copy Graph \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/copy-graph/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/pacific-atlantic-water-flow",
+          "title": "Day 20: Pacific Atlantic Water Flow",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/path-sum",
+            "dsa-30/sprint-4/path-sum-ii",
+            "dsa-30/sprint-4/binary-tree-maximum-path-sum"
+          ],
+          "resources": [
+            {
+              "title": "Pacific Atlantic Water Flow \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/surrounded-regions",
+          "title": "Day 21: Surrounded Regions",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/number-of-islands",
+            "dsa-30/sprint-4/copy-graph",
+            "dsa-30/sprint-4/pacific-atlantic-water-flow"
+          ],
+          "resources": [
+            {
+              "title": "Surrounded Regions \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/surrounded-regions/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/rotting-oranges",
+          "title": "Day 22: Rotting Oranges",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/surrounded-regions"
+          ],
+          "resources": [
+            {
+              "title": "Rotting Oranges \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/rotting-oranges/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/01-matrix",
+          "title": "Day 22: 01 Matrix",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/surrounded-regions"
+          ],
+          "resources": [
+            {
+              "title": "01 Matrix \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/01-matrix/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/zigzag-level-order",
+          "title": "Day 22: Zigzag Level Order",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/surrounded-regions"
+          ],
+          "resources": [
+            {
+              "title": "Zigzag Level Order \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/zigzag-level-order/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/subsets",
+          "title": "Day 23: Subsets",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/rotting-oranges",
+            "dsa-30/sprint-4/01-matrix",
+            "dsa-30/sprint-4/zigzag-level-order"
+          ],
+          "resources": [
+            {
+              "title": "Subsets \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/subsets/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/combination-sum",
+          "title": "Day 23: Combination Sum",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/rotting-oranges",
+            "dsa-30/sprint-4/01-matrix",
+            "dsa-30/sprint-4/zigzag-level-order"
+          ],
+          "resources": [
+            {
+              "title": "Combination Sum \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/combination-sum/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/permutations",
+          "title": "Day 23: Permutations",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/rotting-oranges",
+            "dsa-30/sprint-4/01-matrix",
+            "dsa-30/sprint-4/zigzag-level-order"
+          ],
+          "resources": [
+            {
+              "title": "Permutations \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/permutations/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/letter-combinations-of-a-phone-number",
+          "title": "Day 24: Letter Combinations of a Phone Number",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/subsets",
+            "dsa-30/sprint-4/combination-sum",
+            "dsa-30/sprint-4/permutations"
+          ],
+          "resources": [
+            {
+              "title": "Letter Combinations of a Phone Number \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/word-search",
+          "title": "Day 24: Word Search",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/subsets",
+            "dsa-30/sprint-4/combination-sum",
+            "dsa-30/sprint-4/permutations"
+          ],
+          "resources": [
+            {
+              "title": "Word Search \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/word-search/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-4/palindrome-partitioning",
+          "title": "Day 24: Palindrome Partitioning",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/subsets",
+            "dsa-30/sprint-4/combination-sum",
+            "dsa-30/sprint-4/permutations"
+          ],
+          "resources": [
+            {
+              "title": "Palindrome Partitioning \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/palindrome-partitioning/",
+              "type": "ARTICLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa-30/sprint-5",
+      "title": "Sprint 5 \u2014 Heaps, DP & Optimization",
+      "description": "Finalize your preparation with advanced optimization and dynamic programming.",
+      "topics": [
+        {
+          "id": "dsa-30/sprint-5/k-closest-points-to-origin",
+          "title": "Day 25: K Closest Points to Origin",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/letter-combinations-of-a-phone-number",
+            "dsa-30/sprint-4/word-search",
+            "dsa-30/sprint-4/palindrome-partitioning"
+          ],
+          "resources": [
+            {
+              "title": "K Closest Points to Origin \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/kth-largest-element-in-an-array",
+          "title": "Day 25: Kth Largest Element in an Array",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/letter-combinations-of-a-phone-number",
+            "dsa-30/sprint-4/word-search",
+            "dsa-30/sprint-4/palindrome-partitioning"
+          ],
+          "resources": [
+            {
+              "title": "Kth Largest Element in an Array \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/task-scheduler",
+          "title": "Day 25: Task Scheduler",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-4/letter-combinations-of-a-phone-number",
+            "dsa-30/sprint-4/word-search",
+            "dsa-30/sprint-4/palindrome-partitioning"
+          ],
+          "resources": [
+            {
+              "title": "Task Scheduler \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/task-scheduler/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/merge-k-sorted-lists",
+          "title": "Day 26: Merge K Sorted Lists",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-5/k-closest-points-to-origin",
+            "dsa-30/sprint-5/kth-largest-element-in-an-array",
+            "dsa-30/sprint-5/task-scheduler"
+          ],
+          "resources": [
+            {
+              "title": "Merge K Sorted Lists \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/median-from-data-stream",
+          "title": "Day 26: Median from Data Stream",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 50,
+          "prerequisites": [
+            "dsa-30/sprint-5/k-closest-points-to-origin",
+            "dsa-30/sprint-5/kth-largest-element-in-an-array",
+            "dsa-30/sprint-5/task-scheduler"
+          ],
+          "resources": [
+            {
+              "title": "Median from Data Stream \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/median-from-data-stream/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/climbing-stairs",
+          "title": "Day 27: Climbing Stairs",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-5/merge-k-sorted-lists",
+            "dsa-30/sprint-5/median-from-data-stream"
+          ],
+          "resources": [
+            {
+              "title": "Climbing Stairs \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/climbing-stairs/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/house-robber",
+          "title": "Day 27: House Robber",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/merge-k-sorted-lists",
+            "dsa-30/sprint-5/median-from-data-stream"
+          ],
+          "resources": [
+            {
+              "title": "House Robber \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/house-robber/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/coin-change",
+          "title": "Day 27: Coin Change",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/merge-k-sorted-lists",
+            "dsa-30/sprint-5/median-from-data-stream"
+          ],
+          "resources": [
+            {
+              "title": "Coin Change \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/coin-change/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/longest-increasing-subsequence",
+          "title": "Day 28: Longest Increasing Subsequence",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/climbing-stairs",
+            "dsa-30/sprint-5/house-robber",
+            "dsa-30/sprint-5/coin-change"
+          ],
+          "resources": [
+            {
+              "title": "Longest Increasing Subsequence \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/longest-common-subsequence",
+          "title": "Day 28: Longest Common Subsequence",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/climbing-stairs",
+            "dsa-30/sprint-5/house-robber",
+            "dsa-30/sprint-5/coin-change"
+          ],
+          "resources": [
+            {
+              "title": "Longest Common Subsequence \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/longest-common-subsequence/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/unique-paths",
+          "title": "Day 28: Unique Paths",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/climbing-stairs",
+            "dsa-30/sprint-5/house-robber",
+            "dsa-30/sprint-5/coin-change"
+          ],
+          "resources": [
+            {
+              "title": "Unique Paths \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/unique-paths/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/maximum-subarray",
+          "title": "Day 29: Maximum Subarray",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/longest-increasing-subsequence",
+            "dsa-30/sprint-5/longest-common-subsequence",
+            "dsa-30/sprint-5/unique-paths"
+          ],
+          "resources": [
+            {
+              "title": "Maximum Subarray \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/maximum-subarray/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/decode-ways",
+          "title": "Day 29: Decode Ways",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/longest-increasing-subsequence",
+            "dsa-30/sprint-5/longest-common-subsequence",
+            "dsa-30/sprint-5/unique-paths"
+          ],
+          "resources": [
+            {
+              "title": "Decode Ways \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/decode-ways/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/word-break",
+          "title": "Day 29: Word Break",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/longest-increasing-subsequence",
+            "dsa-30/sprint-5/longest-common-subsequence",
+            "dsa-30/sprint-5/unique-paths"
+          ],
+          "resources": [
+            {
+              "title": "Word Break \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/word-break/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/best-time-to-buy-and-sell-stock",
+          "title": "Day 30: Best Time to Buy and Sell Stock",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 20,
+          "prerequisites": [
+            "dsa-30/sprint-5/maximum-subarray",
+            "dsa-30/sprint-5/decode-ways",
+            "dsa-30/sprint-5/word-break"
+          ],
+          "resources": [
+            {
+              "title": "Best Time to Buy and Sell Stock \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/jump-game",
+          "title": "Day 30: Jump Game",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/maximum-subarray",
+            "dsa-30/sprint-5/decode-ways",
+            "dsa-30/sprint-5/word-break"
+          ],
+          "resources": [
+            {
+              "title": "Jump Game \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/jump-game/",
+              "type": "ARTICLE"
+            }
+          ]
+        },
+        {
+          "id": "dsa-30/sprint-5/merge-intervals",
+          "title": "Day 30: Merge Intervals",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 35,
+          "prerequisites": [
+            "dsa-30/sprint-5/maximum-subarray",
+            "dsa-30/sprint-5/decode-ways",
+            "dsa-30/sprint-5/word-break"
+          ],
+          "resources": [
+            {
+              "title": "Merge Intervals \u2014 LeetCode",
+              "url": "https://leetcode.com/problems/merge-intervals/",
+              "type": "ARTICLE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

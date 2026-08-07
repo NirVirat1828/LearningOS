@@ -1,0 +1,22 @@
+{
+  "roadmaps": [
+    {
+      "id": "my-learning",
+      "title": "My Learning Roadmap",
+      "description": "Personal learning tracks, generated from syllabus documents.",
+      "courses": ["system-design", "dsa-30"]
+    },
+    {
+      "id": "geointel",
+      "title": "GeoIntel AI",
+      "description": "A full checklist across all five pillars of the GeoIntel AI build.",
+      "courses": [
+        "geointel-software-engineering",
+        "geointel-artificial-intelligence",
+        "geointel-economics-finance",
+        "geointel-geopolitics",
+        "geointel-entrepreneurship"
+      ]
+    }
+  ]
+}

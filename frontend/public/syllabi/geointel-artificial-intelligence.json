@@ -1,0 +1,533 @@
+{
+  "id": "geointel-artificial-intelligence",
+  "title": "Artificial intelligence",
+  "description": "GeoIntel AI learning pillar: Artificial intelligence.",
+  "modules": [
+    {
+      "id": "geointel-artificial-intelligence/machine-learning-foundations",
+      "title": "Machine learning foundations",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/machine-learning-foundations/supervised-vs-unsupervised-vs-reinforcement-learning",
+          "title": "Supervised vs unsupervised vs reinforcement learning",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/machine-learning-foundations/train-validation-test-splits",
+          "title": "Train/validation/test splits",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/machine-learning-foundations/overfitting-vs-underfitting",
+          "title": "Overfitting vs underfitting",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/machine-learning-foundations/precision-recall-f1-accuracy-needed-for-your-extraction-eval",
+          "title": "Precision, recall, F1, accuracy (needed for your extraction eval)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/machine-learning-foundations/classification-vs-regression-conceptually",
+          "title": "Classification vs regression, conceptually",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/deep-learning-foundations",
+      "title": "Deep learning foundations",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/neural-network-basics-layers-weights-activation-functions",
+          "title": "Neural network basics: layers, weights, activation functions",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/backpropagation-and-gradient-descent-intuition-level",
+          "title": "Backpropagation and gradient descent, intuition-level",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/regularization-concepts",
+          "title": "Regularization concepts",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/why-transformers-replaced-rnns-lstms-for-language",
+          "title": "Why transformers replaced RNNs/LSTMs for language",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/nlp-fundamentals",
+      "title": "NLP fundamentals",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/tokenization-word-subword-byte-pair-encoding",
+          "title": "Tokenization: word, subword, byte-pair encoding",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/named-entity-recognition-you-re-already-using-spacy-for-this",
+          "title": "Named entity recognition (you're already using spaCy for this)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/text-classification-and-sentiment-analysis-basics",
+          "title": "Text classification and sentiment analysis basics",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/extractive-vs-abstractive-summarization",
+          "title": "Extractive vs abstractive summarization",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/stop-words-stemming-lemmatization",
+          "title": "Stop words, stemming, lemmatization",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/nlp-fundamentals/language-detection-and-multilingual-considerations",
+          "title": "Language detection and multilingual considerations",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/transformers",
+      "title": "Transformers",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/transformers/attention-mechanism-query-key-value-intuition",
+          "title": "Attention mechanism: query/key/value intuition",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/transformers/self-attention-vs-cross-attention",
+          "title": "Self-attention vs cross-attention",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/transformers/encoder-vs-decoder-vs-encoder-decoder-architectures",
+          "title": "Encoder vs decoder vs encoder-decoder architectures",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/transformers/positional-encoding-why-order-needs-explicit-representation",
+          "title": "Positional encoding \u2014 why order needs explicit representation",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/transformers/context-window-limits-and-their-downstream-effect-on-your-pi",
+          "title": "Context window limits and their downstream effect on your pipeline",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/transformers/model-scaling-basics-why-bigger-models-behave-differently",
+          "title": "Model scaling basics (why bigger models behave differently)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/llms",
+      "title": "LLMs",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/llms/zero-shot-few-shot-chain-of-thought-prompting",
+          "title": "Zero-shot, few-shot, chain-of-thought prompting",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/structured-json-output-prompting-already-in-use",
+          "title": "Structured JSON output prompting (already in use)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/temperature-top-p-and-sampling-parameters",
+          "title": "Temperature, top-p, and sampling parameters",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/system-prompts-vs-user-prompts",
+          "title": "System prompts vs user prompts",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/context-window-budgeting",
+          "title": "Context window budgeting",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/causes-of-hallucination-and-mitigation-strategies",
+          "title": "Causes of hallucination and mitigation strategies",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/cost-vs-quality-vs-latency-trade-offs-across-model-tiers",
+          "title": "Cost vs quality vs latency trade-offs across model tiers",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/function-calling-tool-use-basics",
+          "title": "Function calling / tool use basics",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/llms/token-accounting-and-cost-estimation",
+          "title": "Token accounting and cost estimation",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/embeddings",
+      "title": "Embeddings",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/embeddings/what-a-vector-embedding-represents-semantically",
+          "title": "What a vector embedding represents semantically",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/embeddings/cosine-similarity-vs-dot-product-vs-euclidean-distance",
+          "title": "Cosine similarity vs dot product vs Euclidean distance",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/embeddings/embedding-model-trade-offs-dimension-size-multilingual-suppo",
+          "title": "Embedding model trade-offs: dimension size, multilingual support, cost",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/embeddings/chunking-strategies-for-longer-documents",
+          "title": "Chunking strategies for longer documents",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/embeddings/embedding-raw-text-vs-a-summary-trade-offs",
+          "title": "Embedding raw text vs a summary \u2014 trade-offs",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/embeddings/vector-index-types-flat-vs-ivfflat-vs-hnsw-conceptually",
+          "title": "Vector index types: flat vs IVFFlat vs HNSW, conceptually",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/rag",
+      "title": "RAG",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/rag/where-rag-systems-actually-fail-retrieval-vs-generation",
+          "title": "Where RAG systems actually fail: retrieval vs generation",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/re-ranking-retrieved-results-cross-encoder-re-ranking-concep",
+          "title": "Re-ranking retrieved results (cross-encoder re-ranking, conceptual)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/context-assembly-how-much-retrieved-content-to-include",
+          "title": "Context assembly \u2014 how much retrieved content to include",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/grounding-techniques-citing-sources-refusing-when-ungrounded",
+          "title": "Grounding techniques \u2014 citing sources, refusing when ungrounded",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/hybrid-search-combining-keyword-and-semantic-retrieval",
+          "title": "Hybrid search \u2014 combining keyword and semantic retrieval",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/evaluating-rag-retrieval-precision-recall-answer-faithfulnes",
+          "title": "Evaluating RAG: retrieval precision/recall, answer faithfulness",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/ai-agents",
+      "title": "AI agents",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/single-llm-call-vs-an-agentic-loop",
+          "title": "Single LLM call vs an agentic loop",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/tool-use-function-calling-as-the-agent-action-mechanism",
+          "title": "Tool use / function calling as the agent action mechanism",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/planning-and-multi-step-reasoning-patterns",
+          "title": "Planning and multi-step reasoning patterns",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/langgraph-basics-nodes-edges-state",
+          "title": "LangGraph basics: nodes, edges, state",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/agent-memory-short-term-context-vs-longer-term-stored-state",
+          "title": "Agent memory: short-term context vs longer-term stored state",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/failure-handling-in-agent-loops-retries-fallback-steps-human",
+          "title": "Failure handling in agent loops: retries, fallback steps, human checkpoints",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/ai-agents/cost-and-latency-implications-of-multi-step-chains",
+          "title": "Cost and latency implications of multi-step chains",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/knowledge-graphs",
+      "title": "Knowledge graphs",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/knowledge-graphs/entities-relationships-triples-the-basic-graph-data-model",
+          "title": "Entities, relationships, triples \u2014 the basic graph data model",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/knowledge-graphs/when-a-knowledge-graph-earns-its-complexity-over-a-relationa",
+          "title": "When a knowledge graph earns its complexity over a relational table",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/knowledge-graphs/basic-graph-query-concepts-cypher-or-a-lightweight-relationa",
+          "title": "Basic graph query concepts (Cypher or a lightweight relational approximation)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/knowledge-graphs/entity-resolution-deduplication-across-naming-variants",
+          "title": "Entity resolution/deduplication across naming variants",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/knowledge-graphs/temporal-graphs-representing-how-relationships-change-over-t",
+          "title": "Temporal graphs \u2014 representing how relationships change over time",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/mcp",
+      "title": "MCP",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/mcp/what-mcp-standardizes-for-tool-resource-exposure-to-llms",
+          "title": "What MCP standardizes for tool/resource exposure to LLMs",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/mcp/building-a-simple-mcp-server-for-one-of-your-own-tools",
+          "title": "Building a simple MCP server for one of your own tools",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/mcp/connecting-an-agent-to-external-mcp-servers-vs-your-own",
+          "title": "Connecting an agent to external MCP servers vs your own",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

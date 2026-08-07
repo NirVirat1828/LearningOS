@@ -1,0 +1,193 @@
+{
+  "id": "geointel-entrepreneurship",
+  "title": "Entrepreneurship",
+  "description": "GeoIntel AI learning pillar: Entrepreneurship.",
+  "modules": [
+    {
+      "id": "geointel-entrepreneurship/product-thinking",
+      "title": "Product thinking",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/product-thinking/problem-solution-fit-vs-product-market-fit",
+          "title": "Problem-solution fit vs product-market fit",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/product-thinking/defining-mvp-scope-already-practiced-via-the-thin-slice-appr",
+          "title": "Defining MVP scope (already practiced via the thin-slice approach)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/product-thinking/feature-prioritization-framework-pick-one-rice-or-moscow-not",
+          "title": "Feature prioritization framework \u2014 pick one (RICE or MoSCoW), not both",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-entrepreneurship/user-experience",
+      "title": "User experience",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/user-experience/ux-principles-for-information-dense-products",
+          "title": "UX principles for information-dense products",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/user-experience/designing-for-trust-citations-confidence-levels-source-trans",
+          "title": "Designing for trust: citations, confidence levels, source transparency",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/user-experience/mobile-first-design-principles-already-applied-in-the-tracke",
+          "title": "Mobile-first design principles (already applied in the tracker)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-entrepreneurship/startup-strategy",
+      "title": "Startup strategy",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/startup-strategy/competitive-positioning-against-bloomberg-perplexity-openai",
+          "title": "Competitive positioning against Bloomberg/Perplexity/OpenAI-style products",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/startup-strategy/niche-first-strategy-why-the-oil-energy-slice-beats-going-br",
+          "title": "Niche-first strategy \u2014 why the oil/energy slice beats going broad early",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/startup-strategy/what-actually-forms-a-moat-in-an-ai-product-data-workflow-tr",
+          "title": "What actually forms a moat in an AI product: data, workflow, trust \u2014 not the model itself",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-entrepreneurship/business-models",
+      "title": "Business models",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/business-models/subscription-vs-usage-based-vs-freemium-trade-offs",
+          "title": "Subscription vs usage-based vs freemium trade-offs",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/business-models/unit-economics-cost-per-query-report-vs-willingness-to-pay",
+          "title": "Unit economics: cost per query/report vs willingness to pay",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/business-models/b2c-vs-b2b2c-direct-to-traders-vs-distribution-through-a-bro",
+          "title": "B2C vs B2B2C (direct to traders vs distribution through a broker)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-entrepreneurship/execution",
+      "title": "Execution",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/execution/shipping-cadence-and-avoiding-scope-creep",
+          "title": "Shipping cadence and avoiding scope creep",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/execution/talking-to-real-users-before-building-more",
+          "title": "Talking to real users before building more",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/execution/deciding-what-not-to-build",
+          "title": "Deciding what not to build",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-entrepreneurship/decision-making",
+      "title": "Decision making",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-entrepreneurship/decision-making/reversible-vs-irreversible-decisions-moving-fast-on-the-form",
+          "title": "Reversible vs irreversible decisions \u2014 moving fast on the former only",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/decision-making/distinguishing-signal-from-noise-in-user-feedback",
+          "title": "Distinguishing signal from noise in user feedback",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-entrepreneurship/decision-making/recognizing-when-to-pivot-vs-when-to-persist-on-the-current",
+          "title": "Recognizing when to pivot vs when to persist on the current slice",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

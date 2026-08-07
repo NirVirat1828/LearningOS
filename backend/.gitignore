@@ -1,0 +1,17 @@
+target/
+
+*.class
+
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.DS_Store
+
+HELP.md
+
+# Local environment files — keep secrets out of version control
+.env
+.env.local
+*.env
