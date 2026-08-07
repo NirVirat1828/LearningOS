@@ -93,7 +93,7 @@ function toModule(raw: RawModule, courseId: string): SyllabusModule {
 }
 
 async function loadCourse(courseFileId: string, roadmapId: string): Promise<Course> {
-  const raw = await fetchJson<RawCourse>(`/syllabi/${courseFileId}.json`);
+  const raw = await fetchJson<RawCourse>(`${import.meta.env.BASE_URL}syllabi/${courseFileId}.json`);
   return {
     id: raw.id,
     roadmapId,
@@ -110,7 +110,7 @@ async function loadCourse(courseFileId: string, roadmapId: string): Promise<Cour
  * that refetch — see hooks/useRoadmaps.ts and useUpdateTopicProgress.ts).
  */
 export async function loadRoadmaps(): Promise<Roadmap[]> {
-  const manifest = await fetchJson<Manifest>("/syllabi/manifest.json");
+  const manifest = await fetchJson<Manifest>(`${import.meta.env.BASE_URL}syllabi/manifest.json`);
 
   return Promise.all(
     manifest.roadmaps.map(async (r) => ({
