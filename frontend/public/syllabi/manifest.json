@@ -4,7 +4,11 @@
       "id": "my-learning",
       "title": "My Learning Roadmap",
       "description": "Personal learning tracks, generated from syllabus documents.",
-      "courses": ["system-design", "dsa-30"]
+      "courses": [
+        "system-design",
+        "dsa-30",
+        "machine-coding-practice"
+      ]
     },
     {
       "id": "geointel",

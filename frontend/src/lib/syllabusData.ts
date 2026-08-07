@@ -25,6 +25,7 @@ interface RawTopic {
   difficulty: Topic["difficulty"];
   estimatedMinutes: number;
   prerequisites?: string[];
+  priority?: Topic["priority"];
   resources?: RawResource[];
 }
 
@@ -78,6 +79,7 @@ function toTopic(raw: RawTopic, moduleId: string): Topic {
     completionPercentage: progress.completionPercentage,
     completedDate: progress.completedDate,
     prerequisites: raw.prerequisites ?? [],
+    priority: raw.priority ?? "ACTIVE",
     resources: (raw.resources ?? []).map((r, i) => toResource(r, raw.id, i)),
   };
 }

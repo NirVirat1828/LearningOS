@@ -448,6 +448,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -643,6 +644,84 @@
         {
           "id": "geointel-software-engineering/mlops/basic-feature-store-concepts",
           "title": "Basic feature store concepts",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/mlops/mlflow-for-experiment-tracking-and-model-versioning",
+          "title": "MLflow for experiment tracking and model versioning",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-software-engineering/kubernetes-for-model-serving",
+      "title": "Kubernetes for model serving",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-software-engineering/kubernetes-for-model-serving/packaging-a-model-server-as-a-container-image",
+          "title": "Packaging a model server as a container image for Kubernetes",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/kubernetes-for-model-serving/deployments-and-services-for-a-model-endpoint",
+          "title": "Deployments and Services for a model endpoint (readiness/liveness probes)",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/kubernetes-for-model-serving/autoscaling-an-inference-workload-with-hpa",
+          "title": "Autoscaling an inference workload with the Horizontal Pod Autoscaler",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/kubernetes-for-model-serving/resource-requests-limits-and-gpu-scheduling",
+          "title": "Resource requests/limits and GPU scheduling for a serving pod",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-software-engineering/terraform-basics",
+      "title": "Terraform basics",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-software-engineering/terraform-basics/core-workflow-init-plan-apply-and-state",
+          "title": "Terraform core workflow: init, plan, apply, and state",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/terraform-basics/declaring-providers-and-resources-for-a-serving-deployment",
+          "title": "Declaring providers and resources for a model-serving deployment",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-software-engineering/terraform-basics/variables-outputs-and-a-remote-state-backend",
+          "title": "Variables, outputs, and a remote state backend, basics",
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],

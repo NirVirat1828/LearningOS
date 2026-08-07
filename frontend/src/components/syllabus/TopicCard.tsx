@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import type { Topic } from "../../types/syllabus";
-import { DIFFICULTY_STYLES, STATUS_STYLES, formatEstimatedTime, toTitleCase } from "../../lib/topicDisplay";
+import { DIFFICULTY_STYLES, PRIORITY_STYLES, STATUS_STYLES, formatEstimatedTime, toTitleCase } from "../../lib/topicDisplay";
 
 export default function TopicCard({ topic }: { topic: Topic }) {
   return (
@@ -10,6 +10,9 @@ export default function TopicCard({ topic }: { topic: Topic }) {
     >
       <span className="font-medium text-slate-800">{topic.title}</span>
       <div className="flex flex-wrap items-center gap-2 text-xs font-medium">
+        {topic.priority === "LATER" && (
+          <span className={`rounded-full px-2 py-1 ${PRIORITY_STYLES.LATER}`}>Later</span>
+        )}
         <span className={`rounded-full px-2 py-1 ${DIFFICULTY_STYLES[topic.difficulty]}`}>
           {toTitleCase(topic.difficulty)}
         </span>

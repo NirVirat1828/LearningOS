@@ -4,6 +4,9 @@ export type Difficulty = "BEGINNER" | "INTERMEDIATE" | "ADVANCED";
 
 export type CompletionStatus = "NOT_STARTED" | "IN_PROGRESS" | "COMPLETED";
 
+/** "LATER" = backlog / pull-as-needed — kept out of the active daily plan. */
+export type TopicPriority = "ACTIVE" | "LATER";
+
 /**
  * ids are stable slugs (e.g. "system-design/load-balancing/health-checks"),
  * not UUIDs — see frontend/public/syllabi/README.md. That stability is what
@@ -21,6 +24,8 @@ export interface Topic {
   completedDate: string | null;
   /** Topic ids that must be completed first. Drives the roadmap graph and planner ordering. */
   prerequisites: string[];
+  /** Defaults to "ACTIVE" when omitted in the source syllabus JSON. */
+  priority: TopicPriority;
   resources: Resource[];
 }
 
