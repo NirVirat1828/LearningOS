@@ -1,5 +1,9 @@
 const SETTINGS_KEY = "learningos.settings.v1";
-const PLAN_PREFIX = "learningos.plan.";
+// v2: the stored plan is now a structured, sectioned object (see StoredPlan)
+// instead of a flat id list, so the day's focus/variety/review grouping and
+// its "why this" reasons stay stable through the day. The bump means any old
+// flat-array plan is simply ignored and recomputed once.
+const PLAN_PREFIX = "learningos.plan.v2.";
 
 const DEFAULT_DAILY_MINUTES = 90;
 
@@ -28,24 +32,45 @@ export function setDailyMinutes(minutes: number): void {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify({ dailyMinutes: minutes }));
 }
 
+/** One grouped block of today's plan, persisted by topic id (see StoredPlan). */
+export interface StoredPlanSection {
+  kind: "REVIEW" | "FOCUS" | "VARIETY";
+  title: string;
+  courseTitle: string | null;
+  reason: string;
+  topicIds: string[];
+}
+
 /**
- * Today's plan is persisted (topic ids for one date) so it stays a stable,
- * finishable list through the day even as topics get checked off — rather
- * than reshuffling on every refresh. Carry-forward is implicit: an unfinished
- * topic is still actionable tomorrow, so the next day's fresh computation
- * simply picks it again.
+ * Today's plan is persisted (for one date) so it stays a stable, finishable
+ * list through the day even as topics get checked off — rather than reshuffling
+ * on every refresh. `dailyMinutes` is stored alongside so the planner can tell a
+ * same-budget refresh (reuse the plan) from a budget change (recompute at the
+ * new size). Carry-forward is implicit: an unfinished topic is still actionable
+ * tomorrow, so the next day's fresh computation simply picks it again.
  */
-export function getStoredPlan(date: string): string[] | null {
+export interface StoredPlan {
+  date: string;
+  dailyMinutes: number;
+  sections: StoredPlanSection[];
+}
+
+export function getStoredPlan(date: string): StoredPlan | null {
   try {
     const raw = localStorage.getItem(PLAN_PREFIX + date);
-    return raw ? (JSON.parse(raw) as string[]) : null;
+    if (!raw) {
+      return null;
+    }
+    const parsed = JSON.parse(raw) as StoredPlan;
+    // Guard against a half-written or older-shaped value.
+    return Array.isArray(parsed.sections) ? parsed : null;
   } catch {
     return null;
   }
 }
 
-export function setStoredPlan(date: string, topicIds: string[]): void {
-  localStorage.setItem(PLAN_PREFIX + date, JSON.stringify(topicIds));
+export function setStoredPlan(date: string, plan: StoredPlan): void {
+  localStorage.setItem(PLAN_PREFIX + date, JSON.stringify(plan));
 }
 
 /** Drop the stored plan for a date so it gets recomputed — used when the budget changes. */
