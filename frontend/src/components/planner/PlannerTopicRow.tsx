@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import type { Topic } from "../../types/syllabus";
 import { DIFFICULTY_STYLES, formatEstimatedTime, toTitleCase } from "../../lib/topicDisplay";
+import LearnWithAiButton from "../topic/LearnWithAiButton";
 
 interface PlannerTopicRowProps {
   topic: Topic;
@@ -47,6 +48,7 @@ export default function PlannerTopicRow({
         {toTitleCase(topic.difficulty)}
       </span>
       <span className="shrink-0 text-xs text-slate-400">{formatEstimatedTime(topic.estimatedMinutes)}</span>
+      <LearnWithAiButton topic={topic} variant="icon" />
     </div>
   );
 }

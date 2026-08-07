@@ -1,6 +1,7 @@
 import type { Topic } from "../../types/syllabus";
 import { DIFFICULTY_STYLES, STATUS_STYLES, formatEstimatedTime, toTitleCase } from "../../lib/topicDisplay";
 import { useSetTopicComplete } from "../../hooks/useSetTopicComplete";
+import LearnWithAiButton from "./LearnWithAiButton";
 
 export default function TopicOverviewPanel({ topic }: { topic: Topic }) {
   const setComplete = useSetTopicComplete();
@@ -21,24 +22,30 @@ export default function TopicOverviewPanel({ topic }: { topic: Topic }) {
         </span>
       </div>
 
-      <button
-        type="button"
-        disabled={setComplete.isPending}
-        onClick={() =>
-          setComplete.mutate({
-            topicId: topic.id,
-            completed: !isCompleted,
-            estimatedMinutes: topic.estimatedMinutes,
-          })
-        }
-        className={`mt-6 rounded-md px-4 py-2 text-sm font-medium transition-colors disabled:opacity-60 ${
-          isCompleted
-            ? "border border-slate-300 bg-white text-slate-600 hover:bg-slate-50"
-            : "bg-emerald-600 text-white hover:bg-emerald-700"
-        }`}
-      >
-        {isCompleted ? "Mark as not done" : "Mark as complete"}
-      </button>
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        <button
+          type="button"
+          disabled={setComplete.isPending}
+          onClick={() =>
+            setComplete.mutate({
+              topicId: topic.id,
+              completed: !isCompleted,
+              estimatedMinutes: topic.estimatedMinutes,
+            })
+          }
+          className={`rounded-md px-4 py-2 text-sm font-medium transition-colors disabled:opacity-60 ${
+            isCompleted
+              ? "border border-slate-300 bg-white text-slate-600 hover:bg-slate-50"
+              : "bg-emerald-600 text-white hover:bg-emerald-700"
+          }`}
+        >
+          {isCompleted ? "Mark as not done" : "Mark as complete"}
+        </button>
+        <LearnWithAiButton topic={topic} />
+      </div>
+      <p className="mt-2 text-xs text-slate-400">
+        “Learn with AI” copies a ready-made teaching prompt — paste it into Claude or ChatGPT.
+      </p>
     </div>
   );
 }
