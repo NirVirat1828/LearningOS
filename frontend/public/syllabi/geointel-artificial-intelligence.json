@@ -86,6 +86,22 @@
           "estimatedMinutes": 30,
           "prerequisites": [],
           "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/hands-on-build-and-train-a-small-network-in-pytorch-tf",
+          "title": "Hands-on: build and train a small neural network in PyTorch or TensorFlow",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 60,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/deep-learning-foundations/hands-on-fine-tune-a-pretrained-model-in-pytorch-tf",
+          "title": "Hands-on: fine-tune a pretrained model's head in PyTorch or TensorFlow",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 60,
+          "prerequisites": [],
+          "resources": []
         }
       ]
     },
@@ -385,6 +401,14 @@
           "estimatedMinutes": 30,
           "prerequisites": [],
           "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/rag/applied-project-a-small-rag-pipeline-with-langchain-or-llamaindex",
+          "title": "Applied project: build a small RAG pipeline with LangChain or LlamaIndex",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 90,
+          "prerequisites": [],
+          "resources": []
         }
       ]
     },
@@ -462,6 +486,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -470,6 +495,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -478,6 +504,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -486,6 +513,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -494,6 +522,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         }
       ]
@@ -509,6 +538,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -517,6 +547,7 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
           "prerequisites": [],
+          "priority": "LATER",
           "resources": []
         },
         {
@@ -524,6 +555,38 @@
           "title": "Connecting an agent to external MCP servers vs your own",
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 30,
+          "prerequisites": [],
+          "priority": "LATER",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "geointel-artificial-intelligence/huggingface-applied-tooling",
+      "title": "HuggingFace \u2014 applied tooling",
+      "description": null,
+      "topics": [
+        {
+          "id": "geointel-artificial-intelligence/huggingface-applied-tooling/ecosystem-basics-transformers-datasets-and-the-hub",
+          "title": "HuggingFace ecosystem basics: transformers, datasets, and the Hub",
+          "difficulty": "BEGINNER",
+          "estimatedMinutes": 30,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/huggingface-applied-tooling/load-a-pretrained-model-and-run-inference",
+          "title": "Load a pretrained HuggingFace model and run inference",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 45,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "geointel-artificial-intelligence/huggingface-applied-tooling/one-light-fine-tune-on-a-small-task",
+          "title": "One light fine-tune: adapt a small HuggingFace model to a narrow task",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 60,
           "prerequisites": [],
           "resources": []
         }

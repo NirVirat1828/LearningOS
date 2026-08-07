@@ -53,6 +53,7 @@ the old backend generated.
           "difficulty": "BEGINNER | INTERMEDIATE | ADVANCED",
           "estimatedMinutes": 30,
           "prerequisites": ["system-design/load-balancing/fundamentals"],
+          "priority": "ACTIVE | LATER",
           "resources": [
             { "title": "…", "url": "https://…", "type": "OFFICIAL_DOCS | YOUTUBE | BOOK | GITHUB | ARTICLE" }
           ]
@@ -65,5 +66,8 @@ the old backend generated.
 
 - `prerequisites` — topic `id`s (may cross modules) that should be done first. Powers the
   roadmap dependency graph and the planner's ordering. Omit or `[]` for none.
+- `priority` — `"ACTIVE"` (default, may be omitted) or `"LATER"`. `"LATER"` marks a backlog /
+  pull-as-needed topic: it still shows up in the syllabus browser (tagged "Later") but the
+  daily planner (`computeTodaysPlan`) skips it, so it never occupies today's budget on its own.
 - `resources` — optional; same five types the old backend used. Omit or `[]` for none.
 - `difficulty` / `estimatedMinutes` — used by the topic cards and the AI/rule planner.

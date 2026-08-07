@@ -1,0 +1,46 @@
+{
+  "id": "machine-coding-practice",
+  "title": "Machine Coding Practice",
+  "description": "One-time bounded practice block, not a recurring track: implement each classic LLD/OOP machine coding problem end-to-end in Java, then move on.",
+  "modules": [
+    {
+      "id": "machine-coding-practice/problems",
+      "title": "Machine coding problems (Java)",
+      "description": "Design and implement each system end-to-end: core classes, key interactions, and a small runnable demo.",
+      "topics": [
+        {
+          "id": "machine-coding-practice/problems/parking-lot-system",
+          "title": "Parking Lot System",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 90,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "machine-coding-practice/problems/rate-limiter",
+          "title": "Rate Limiter",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 60,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "machine-coding-practice/problems/ticket-booking-system",
+          "title": "Ticket Booking System",
+          "difficulty": "INTERMEDIATE",
+          "estimatedMinutes": 90,
+          "prerequisites": [],
+          "resources": []
+        },
+        {
+          "id": "machine-coding-practice/problems/elevator-system",
+          "title": "Elevator System",
+          "difficulty": "ADVANCED",
+          "estimatedMinutes": 90,
+          "prerequisites": [],
+          "resources": []
+        }
+      ]
+    }
+  ]
+}

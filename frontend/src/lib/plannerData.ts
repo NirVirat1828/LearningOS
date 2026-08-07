@@ -30,9 +30,11 @@ export interface TodaysPlan {
  *   2. progress (localStorage), and
  *   3. the daily time budget.
  *
- * A topic is "actionable" when it isn't COMPLETED and every prerequisite IS
- * COMPLETED. We take actionable topics in authored order and add them until
- * their estimated minutes reach the budget. That prerequisite gate is what
+ * A topic is "actionable" when it isn't COMPLETED, isn't priority "LATER"
+ * (backlog items sit out of the active plan until pulled in manually via the
+ * syllabus browser), and every prerequisite IS COMPLETED. We take actionable
+ * topics in authored order and add them until their estimated minutes reach
+ * the budget. That prerequisite gate is what
  * makes a sprint's cadence emerge for free: e.g. DSA Day 2 stays locked until
  * all of Day 1 is done, so a day's budget naturally yields ~a day's problems.
  *
@@ -67,6 +69,7 @@ export async function computeTodaysPlan(): Promise<TodaysPlan> {
     (t) =>
       !completed.has(t.id) &&
       !alreadyIn.has(t.id) &&
+      t.priority !== "LATER" &&
       t.prerequisites.every((p) => completed.has(p)),
   );
 
