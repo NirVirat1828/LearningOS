@@ -14,7 +14,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "StatQuest with Josh Starmer",
+              "url": "https://www.youtube.com/@statquest",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "An Introduction to Statistical Learning (free book)",
+              "url": "https://www.statlearning.com/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/machine-learning-foundations/train-validation-test-splits",
@@ -22,7 +38,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "StatQuest with Josh Starmer",
+              "url": "https://www.youtube.com/@statquest",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "An Introduction to Statistical Learning (free book)",
+              "url": "https://www.statlearning.com/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/machine-learning-foundations/overfitting-vs-underfitting",
@@ -30,7 +62,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "StatQuest with Josh Starmer",
+              "url": "https://www.youtube.com/@statquest",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "An Introduction to Statistical Learning (free book)",
+              "url": "https://www.statlearning.com/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/machine-learning-foundations/precision-recall-f1-accuracy-needed-for-your-extraction-eval",
@@ -38,7 +86,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "StatQuest with Josh Starmer",
+              "url": "https://www.youtube.com/@statquest",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "An Introduction to Statistical Learning (free book)",
+              "url": "https://www.statlearning.com/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/machine-learning-foundations/classification-vs-regression-conceptually",
@@ -46,7 +110,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Machine Learning Crash Course (Google)",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "StatQuest with Josh Starmer",
+              "url": "https://www.youtube.com/@statquest",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "An Introduction to Statistical Learning (free book)",
+              "url": "https://www.statlearning.com/",
+              "type": "BOOK"
+            }
+          ]
         }
       ]
     },
@@ -61,7 +141,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/deep-learning-foundations/backpropagation-and-gradient-descent-intuition-level",
@@ -69,7 +165,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/deep-learning-foundations/regularization-concepts",
@@ -77,7 +189,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/deep-learning-foundations/why-transformers-replaced-rnns-lstms-for-language",
@@ -85,7 +213,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/deep-learning-foundations/hands-on-build-and-train-a-small-network-in-pytorch-tf",
@@ -93,7 +237,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 60,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/deep-learning-foundations/hands-on-fine-tune-a-pretrained-model-in-pytorch-tf",
@@ -101,7 +261,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 60,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Neural networks \u2014 3Blue1Brown",
+              "url": "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Neural Networks: Zero to Hero \u2014 Karpathy",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "type": "GITHUB"
+            },
+            {
+              "title": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -116,7 +292,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/nlp-fundamentals/named-entity-recognition-you-re-already-using-spacy-for-this",
@@ -124,7 +311,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/nlp-fundamentals/text-classification-and-sentiment-analysis-basics",
@@ -132,7 +330,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/nlp-fundamentals/extractive-vs-abstractive-summarization",
@@ -140,7 +349,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/nlp-fundamentals/stop-words-stemming-lemmatization",
@@ -148,7 +368,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/nlp-fundamentals/language-detection-and-multilingual-considerations",
@@ -156,7 +387,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face NLP Course",
+              "url": "https://huggingface.co/learn/nlp-course",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Advanced NLP with spaCy (free course)",
+              "url": "https://course.spacy.io/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -171,7 +413,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/transformers/self-attention-vs-cross-attention",
@@ -179,7 +437,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/transformers/encoder-vs-decoder-vs-encoder-decoder-architectures",
@@ -187,7 +461,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/transformers/positional-encoding-why-order-needs-explicit-representation",
@@ -195,7 +485,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/transformers/context-window-limits-and-their-downstream-effect-on-your-pi",
@@ -203,7 +509,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/transformers/model-scaling-basics-why-bigger-models-behave-differently",
@@ -211,7 +533,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Transformer \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-transformer/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Attention Is All You Need (paper)",
+              "url": "https://arxiv.org/abs/1706.03762",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -226,7 +564,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/structured-json-output-prompting-already-in-use",
@@ -234,7 +583,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/temperature-top-p-and-sampling-parameters",
@@ -242,7 +602,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/system-prompts-vs-user-prompts",
@@ -250,7 +621,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/context-window-budgeting",
@@ -258,7 +640,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/causes-of-hallucination-and-mitigation-strategies",
@@ -266,7 +659,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/cost-vs-quality-vs-latency-trade-offs-across-model-tiers",
@@ -274,7 +678,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/function-calling-tool-use-basics",
@@ -282,7 +697,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/llms/token-accounting-and-cost-estimation",
@@ -290,7 +716,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Prompt Engineering Guide",
+              "url": "https://www.promptingguide.ai/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -305,7 +742,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/embeddings/cosine-similarity-vs-dot-product-vs-euclidean-distance",
@@ -313,7 +766,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/embeddings/embedding-model-trade-offs-dimension-size-multilingual-suppo",
@@ -321,7 +790,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/embeddings/chunking-strategies-for-longer-documents",
@@ -329,7 +814,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/embeddings/embedding-raw-text-vs-a-summary-trade-offs",
@@ -337,7 +838,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/embeddings/vector-index-types-flat-vs-ivfflat-vs-hnsw-conceptually",
@@ -345,7 +862,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Illustrated Word2vec \u2014 Jay Alammar",
+              "url": "https://jalammar.github.io/illustrated-word2vec/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Pinecone Learn (vector search)",
+              "url": "https://www.pinecone.io/learn/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -360,7 +893,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/re-ranking-retrieved-results-cross-encoder-re-ranking-concep",
@@ -368,7 +917,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/context-assembly-how-much-retrieved-content-to-include",
@@ -376,7 +941,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/grounding-techniques-citing-sources-refusing-when-ungrounded",
@@ -384,7 +965,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/hybrid-search-combining-keyword-and-semantic-retrieval",
@@ -392,7 +989,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/evaluating-rag-retrieval-precision-recall-answer-faithfulnes",
@@ -400,7 +1013,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/rag/applied-project-a-small-rag-pipeline-with-langchain-or-llamaindex",
@@ -408,7 +1037,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 90,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "LangChain RAG tutorial",
+              "url": "https://python.langchain.com/docs/tutorials/rag/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "LlamaIndex docs",
+              "url": "https://developers.llamaindex.ai/python/framework/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Retrieval-Augmented Generation \u2014 Pinecone Learn",
+              "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -423,7 +1068,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/tool-use-function-calling-as-the-agent-action-mechanism",
@@ -431,7 +1087,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/planning-and-multi-step-reasoning-patterns",
@@ -439,7 +1106,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/langgraph-basics-nodes-edges-state",
@@ -447,7 +1125,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/agent-memory-short-term-context-vs-longer-term-stored-state",
@@ -455,7 +1144,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/failure-handling-in-agent-loops-retries-fallback-steps-human",
@@ -463,7 +1163,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/ai-agents/cost-and-latency-implications-of-multi-step-chains",
@@ -471,7 +1182,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Building Effective Agents \u2014 Anthropic",
+              "url": "https://www.anthropic.com/engineering/building-effective-agents",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "LangGraph docs",
+              "url": "https://langchain-ai.github.io/langgraph/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -487,7 +1209,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Neo4j GraphAcademy",
+              "url": "https://graphacademy.neo4j.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Neo4j docs",
+              "url": "https://neo4j.com/docs/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/knowledge-graphs/when-a-knowledge-graph-earns-its-complexity-over-a-relationa",
@@ -496,7 +1229,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Neo4j GraphAcademy",
+              "url": "https://graphacademy.neo4j.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Neo4j docs",
+              "url": "https://neo4j.com/docs/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/knowledge-graphs/basic-graph-query-concepts-cypher-or-a-lightweight-relationa",
@@ -505,7 +1249,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Neo4j GraphAcademy",
+              "url": "https://graphacademy.neo4j.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Neo4j docs",
+              "url": "https://neo4j.com/docs/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/knowledge-graphs/entity-resolution-deduplication-across-naming-variants",
@@ -514,7 +1269,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Neo4j GraphAcademy",
+              "url": "https://graphacademy.neo4j.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Neo4j docs",
+              "url": "https://neo4j.com/docs/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/knowledge-graphs/temporal-graphs-representing-how-relationships-change-over-t",
@@ -523,7 +1289,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Neo4j GraphAcademy",
+              "url": "https://graphacademy.neo4j.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Neo4j docs",
+              "url": "https://neo4j.com/docs/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -539,7 +1316,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Model Context Protocol \u2014 docs",
+              "url": "https://modelcontextprotocol.io/introduction",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "MCP reference servers",
+              "url": "https://github.com/modelcontextprotocol/servers",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/mcp/building-a-simple-mcp-server-for-one-of-your-own-tools",
@@ -548,7 +1336,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Model Context Protocol \u2014 docs",
+              "url": "https://modelcontextprotocol.io/introduction",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "MCP reference servers",
+              "url": "https://github.com/modelcontextprotocol/servers",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/mcp/connecting-an-agent-to-external-mcp-servers-vs-your-own",
@@ -557,7 +1356,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "Model Context Protocol \u2014 docs",
+              "url": "https://modelcontextprotocol.io/introduction",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "MCP reference servers",
+              "url": "https://github.com/modelcontextprotocol/servers",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -572,7 +1382,23 @@
           "difficulty": "BEGINNER",
           "estimatedMinutes": 15,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face courses hub",
+              "url": "https://huggingface.co/learn",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "huggingface/llm-course",
+              "url": "https://github.com/huggingface/llm-course",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/huggingface-applied-tooling/load-a-pretrained-model-and-run-inference",
@@ -580,7 +1406,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face courses hub",
+              "url": "https://huggingface.co/learn",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "huggingface/llm-course",
+              "url": "https://github.com/huggingface/llm-course",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-artificial-intelligence/huggingface-applied-tooling/one-light-fine-tune-on-a-small-task",
@@ -588,7 +1430,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 60,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Hugging Face courses hub",
+              "url": "https://huggingface.co/learn",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Hugging Face Transformers docs",
+              "url": "https://huggingface.co/docs/transformers/index",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "huggingface/llm-course",
+              "url": "https://github.com/huggingface/llm-course",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     }

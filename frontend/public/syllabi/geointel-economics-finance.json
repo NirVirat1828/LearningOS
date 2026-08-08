@@ -14,7 +14,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/macroeconomics/inflation-causes-and-measurement-cpi-wpi",
@@ -22,7 +33,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/macroeconomics/how-central-banks-set-interest-rates-and-why",
@@ -30,7 +52,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/macroeconomics/monetary-policy-vs-fiscal-policy-who-does-what",
@@ -38,7 +71,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/macroeconomics/unemployment-inflation-relationship-conceptually",
@@ -46,7 +90,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/macroeconomics/balance-of-trade-current-account-basics",
@@ -54,7 +109,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Macroeconomics \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -69,7 +135,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/stock-markets/equity-valuation-basics-p-e-ratio-market-cap-earnings",
@@ -77,7 +154,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/stock-markets/index-construction-how-nifty-sensex-s-p-500-are-built",
@@ -85,7 +173,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/stock-markets/market-sentiment-indicators-vix-put-call-ratio",
@@ -93,7 +192,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/stock-markets/sectoral-sensitivity-why-energy-stocks-react-to-oil-events-s",
@@ -101,7 +211,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -116,7 +237,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/commodities/crude-oil-benchmarks-brent-vs-wti-vs-dubai-and-why-they-dive",
@@ -124,7 +251,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/commodities/supply-demand-shocks-and-transmission-into-price",
@@ -132,7 +265,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/commodities/opec-mechanics-quotas-compliance-spare-capacity",
@@ -140,7 +279,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/commodities/strategic-petroleum-reserves-as-a-shock-buffer",
@@ -148,7 +293,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -163,7 +314,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/interest-rates-bonds/yield-curve-shape-and-inversion-signals",
@@ -171,7 +333,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/interest-rates-bonds/sovereign-bonds-and-country-risk-premiums",
@@ -179,7 +352,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/interest-rates-bonds/how-rate-changes-ripple-into-currencies-and-equities",
@@ -187,7 +371,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -202,7 +397,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/inflation/energy-price-pass-through-to-broader-inflation",
@@ -210,7 +411,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/inflation/real-vs-nominal-returns",
@@ -218,7 +425,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -233,7 +446,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/currencies/petrocurrencies-why-oil-exporter-currencies-track-oil-prices",
@@ -241,7 +460,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/currencies/inr-specific-dynamics-rbi-intervention-import-bill-sensitivi",
@@ -249,7 +474,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/currencies/currency-as-a-transmission-channel-for-geopolitical-shocks",
@@ -257,7 +488,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -272,7 +509,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/investing-fundamentals/time-horizon-and-position-sizing-concepts",
@@ -280,7 +528,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-economics-finance/investing-fundamentals/trader-s-reaction-window-vs-long-term-investor-s-horizon",
@@ -288,7 +547,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Investopedia",
+              "url": "https://www.investopedia.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Core Finance \u2014 Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     }
