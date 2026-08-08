@@ -14,7 +14,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 90,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "awesome-low-level-design",
+              "url": "https://github.com/ashishps1/awesome-low-level-design",
+              "type": "GITHUB"
+            },
+            {
+              "title": "Design Patterns \u2014 Refactoring.Guru",
+              "url": "https://refactoring.guru/design-patterns",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "machine-coding-practice/problems/rate-limiter",
@@ -22,7 +33,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 60,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "awesome-low-level-design",
+              "url": "https://github.com/ashishps1/awesome-low-level-design",
+              "type": "GITHUB"
+            },
+            {
+              "title": "Design Patterns \u2014 Refactoring.Guru",
+              "url": "https://refactoring.guru/design-patterns",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "machine-coding-practice/problems/ticket-booking-system",
@@ -30,7 +52,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 90,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "awesome-low-level-design",
+              "url": "https://github.com/ashishps1/awesome-low-level-design",
+              "type": "GITHUB"
+            },
+            {
+              "title": "Design Patterns \u2014 Refactoring.Guru",
+              "url": "https://refactoring.guru/design-patterns",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "machine-coding-practice/problems/elevator-system",
@@ -38,7 +71,18 @@
           "difficulty": "ADVANCED",
           "estimatedMinutes": 90,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "awesome-low-level-design",
+              "url": "https://github.com/ashishps1/awesome-low-level-design",
+              "type": "GITHUB"
+            },
+            {
+              "title": "Design Patterns \u2014 Refactoring.Guru",
+              "url": "https://refactoring.guru/design-patterns",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     }

@@ -14,7 +14,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/virtual-environments-and-dependency-management-venv-poetry-o",
@@ -22,7 +38,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/type-hints-and-static-checking-mypy-basics",
@@ -30,7 +62,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/async-await-syntax-and-asyncio-fundamentals",
@@ -38,7 +86,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/context-managers-with-statements",
@@ -46,7 +110,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/decorators-used-throughout-fastapi",
@@ -54,7 +134,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/custom-exceptions-and-error-handling-patterns",
@@ -62,7 +158,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/working-with-json-serialization-deserialization",
@@ -70,7 +182,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/datetime-and-timezone-handling-critical-for-cross-source-new",
@@ -78,7 +206,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/regular-expressions-for-text-cleaning-and-keyword-filtering",
@@ -86,7 +230,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/python-core/package-module-structure-and-import-conventions",
@@ -94,7 +254,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Python Tutorial (official)",
+              "url": "https://docs.python.org/3/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Real Python",
+              "url": "https://realpython.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "mypy documentation",
+              "url": "https://mypy.readthedocs.io/en/stable/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -109,7 +285,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/pydantic-models-for-request-response-validation",
@@ -117,7 +304,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/dependency-injection-depends",
@@ -125,7 +323,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/async-endpoints-vs-sync-endpoints-when-each-applies",
@@ -133,7 +342,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/background-tasks-vs-external-schedulers",
@@ -141,7 +361,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/middleware-cors-logging-custom-auth",
@@ -149,7 +380,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/exception-handlers",
@@ -157,7 +399,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/auto-generated-openapi-swagger-docs",
@@ -165,7 +418,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/testing-with-testclient-and-pytest",
@@ -173,7 +437,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/fastapi/cookie-session-based-authentication",
@@ -181,7 +456,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "FastAPI Tutorial (official)",
+              "url": "https://fastapi.tiangolo.com/tutorial/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Full Stack FastAPI Template",
+              "url": "https://github.com/fastapi/full-stack-fastapi-template",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -196,7 +482,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/sql-fundamentals-select-join-group-by-subqueries-window-func",
@@ -204,7 +506,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/migrations-and-schema-versioning-alembic",
@@ -212,7 +530,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/transactions-and-acid-basics",
@@ -220,7 +554,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/pgvector-extension-vector-columns-similarity-operators",
@@ -228,7 +578,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/vector-indexing-at-scale-ivfflat-hnsw-conceptual-for-later",
@@ -236,7 +602,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/connection-pooling-asyncpg-sqlalchemy-async-engine",
@@ -244,7 +626,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/jsonb-columns-for-semi-structured-data",
@@ -252,7 +650,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/postgresql/full-text-search-tsvector-as-a-complement-to-semantic-search",
@@ -260,7 +674,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "PostgreSQL Documentation",
+              "url": "https://www.postgresql.org/docs/current/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "PostgreSQL Tutorial",
+              "url": "https://www.postgresqltutorial.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "pgvector",
+              "url": "https://github.com/pgvector/pgvector",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -275,7 +705,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Redis Documentation",
+              "url": "https://redis.io/docs/latest/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Redis Learn",
+              "url": "https://redis.io/learn/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/redis/cache-aside-pattern",
@@ -283,7 +724,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Redis Documentation",
+              "url": "https://redis.io/docs/latest/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Redis Learn",
+              "url": "https://redis.io/learn/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/redis/rate-limiting-patterns",
@@ -291,7 +743,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Redis Documentation",
+              "url": "https://redis.io/docs/latest/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Redis Learn",
+              "url": "https://redis.io/learn/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/redis/pub-sub-basics",
@@ -299,7 +762,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Redis Documentation",
+              "url": "https://redis.io/docs/latest/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Redis Learn",
+              "url": "https://redis.io/learn/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/redis/redis-as-a-celery-broker",
@@ -307,7 +781,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Redis Documentation",
+              "url": "https://redis.io/docs/latest/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Redis Learn",
+              "url": "https://redis.io/learn/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -322,7 +807,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/api-versioning-strategies",
@@ -330,7 +826,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/pagination-patterns-cursor-vs-offset",
@@ -338,7 +845,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/rate-limiting-and-api-key-design-for-your-own-endpoints",
@@ -346,7 +864,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/consuming-third-party-apis-auth-headers-retries-backoff",
@@ -354,7 +883,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/webhook-basics",
@@ -362,7 +902,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/apis/api-documentation-practices",
@@ -370,7 +921,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "REST API Tutorial",
+              "url": "https://restfulapi.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Microsoft REST API Guidelines",
+              "url": "https://github.com/microsoft/api-guidelines",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -385,7 +947,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/writing-a-dockerfile-multi-stage-builds",
@@ -393,7 +966,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/docker-compose-for-multi-service-local-dev",
@@ -401,7 +985,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/volumes-and-persistent-storage-concepts",
@@ -409,7 +1004,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/environment-variable-management-in-containers",
@@ -417,7 +1023,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/container-to-container-networking-service-discovery-by-name",
@@ -425,7 +1042,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/docker/image-size-optimization",
@@ -433,7 +1061,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Docker: Get Started",
+              "url": "https://docs.docker.com/get-started/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Awesome Docker",
+              "url": "https://github.com/veggiemonk/awesome-docker",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -449,7 +1088,18 @@
           "estimatedMinutes": 20,
           "prerequisites": [],
           "priority": "LATER",
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/secrets-environment-variable-management-in-production",
@@ -457,7 +1107,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/ci-cd-basics-build-test-deploy-pipeline-e-g-github-actions",
@@ -465,7 +1126,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/domain-dns-basics-https-tls-certificates",
@@ -473,7 +1145,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/production-logging-and-basic-alerting",
@@ -481,7 +1164,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/free-tier-limits-and-scaling-cost-awareness",
@@ -489,7 +1183,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/cloud-deployment/horizontal-vs-vertical-scaling-concepts",
@@ -497,7 +1202,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "The Twelve-Factor App",
+              "url": "https://12factor.net/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "GitHub Actions documentation",
+              "url": "https://docs.github.com/en/actions",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -512,7 +1228,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/where-caching-layers-fit-in-a-request-path",
@@ -520,7 +1252,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/message-queues-and-async-processing-why-ingestion-and-enrich",
@@ -528,7 +1276,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/database-indexing-and-query-optimization",
@@ -536,7 +1300,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/read-replicas-scaling-reads-vs-writes",
@@ -544,7 +1324,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/backpressure-and-rate-limiting-under-load",
@@ -552,7 +1348,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/idempotency-in-distributed-background-jobs",
@@ -560,7 +1372,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/cap-theorem-basics",
@@ -568,7 +1396,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/system-design/designing-for-failure-retries-circuit-breakers-dead-letter-q",
@@ -576,7 +1420,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "type": "GITHUB"
+            },
+            {
+              "title": "ByteByteGo",
+              "url": "https://www.youtube.com/@ByteByteGo",
+              "type": "YOUTUBE"
+            },
+            {
+              "title": "Designing Data-Intensive Applications",
+              "url": "https://dataintensive.net/",
+              "type": "BOOK"
+            }
+          ]
         }
       ]
     },
@@ -591,7 +1451,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/evaluation-pipelines-your-extraction-eval-set-is-the-seed-of",
@@ -599,7 +1475,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/logging-llm-inputs-outputs-for-debugging",
@@ -607,7 +1499,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/token-cost-monitoring-per-model-call",
@@ -615,7 +1523,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/a-b-testing-prompts-or-models",
@@ -623,7 +1547,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/data-pipeline-health-monitoring-did-ingestion-actually-run-t",
@@ -631,7 +1571,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/model-prompt-drift-over-time",
@@ -639,7 +1595,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/basic-feature-store-concepts",
@@ -647,7 +1619,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/mlops/mlflow-for-experiment-tracking-and-model-versioning",
@@ -655,7 +1643,23 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "MLflow Documentation",
+              "url": "https://mlflow.org/docs/latest/index.html",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Made With ML",
+              "url": "https://madewithml.com/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Awesome MLOps",
+              "url": "https://github.com/visenger/awesome-mlops",
+              "type": "GITHUB"
+            }
+          ]
         }
       ]
     },
@@ -670,7 +1674,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Kubernetes Tutorials",
+              "url": "https://kubernetes.io/docs/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "KServe (model serving on Kubernetes)",
+              "url": "https://kserve.github.io/website/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/kubernetes-for-model-serving/deployments-and-services-for-a-model-endpoint",
@@ -678,7 +1693,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Kubernetes Tutorials",
+              "url": "https://kubernetes.io/docs/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "KServe (model serving on Kubernetes)",
+              "url": "https://kserve.github.io/website/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/kubernetes-for-model-serving/autoscaling-an-inference-workload-with-hpa",
@@ -686,7 +1712,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Kubernetes Tutorials",
+              "url": "https://kubernetes.io/docs/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "KServe (model serving on Kubernetes)",
+              "url": "https://kserve.github.io/website/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/kubernetes-for-model-serving/resource-requests-limits-and-gpu-scheduling",
@@ -694,7 +1731,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Kubernetes Tutorials",
+              "url": "https://kubernetes.io/docs/tutorials/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "KServe (model serving on Kubernetes)",
+              "url": "https://kserve.github.io/website/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -709,7 +1757,18 @@
           "difficulty": "BEGINNER",
           "estimatedMinutes": 15,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Terraform Tutorials (HashiCorp)",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Terraform Documentation",
+              "url": "https://developer.hashicorp.com/terraform/docs",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/terraform-basics/declaring-providers-and-resources-for-a-serving-deployment",
@@ -717,7 +1776,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 45,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Terraform Tutorials (HashiCorp)",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Terraform Documentation",
+              "url": "https://developer.hashicorp.com/terraform/docs",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-software-engineering/terraform-basics/variables-outputs-and-a-remote-state-backend",
@@ -725,7 +1795,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Terraform Tutorials (HashiCorp)",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Terraform Documentation",
+              "url": "https://developer.hashicorp.com/terraform/docs",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     }

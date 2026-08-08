@@ -14,7 +14,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/international-relations-foundations/state-actors-vs-non-state-actors-militias-terrorist-groups-m",
@@ -22,7 +33,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/international-relations-foundations/major-current-alliances-and-blocs-nato-brics-quad-etc",
@@ -30,7 +52,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -45,7 +78,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/wars-conflicts/market-reaction-patterns-onset-vs-prolonged-conflict-vs-reso",
@@ -53,7 +92,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/wars-conflicts/proxy-wars-and-their-harder-to-price-economic-signaling",
@@ -61,7 +106,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/wars-conflicts/current-conflict-zones-relevant-to-your-slice-middle-east-ru",
@@ -69,7 +120,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -84,7 +141,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "World Trade Organization",
+              "url": "https://www.wto.org/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/trade/tariffs-and-their-market-impact",
@@ -92,7 +160,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "World Trade Organization",
+              "url": "https://www.wto.org/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/trade/supply-chain-chokepoints-strait-of-hormuz-suez-canal-strait",
@@ -100,7 +179,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "World Trade Organization",
+              "url": "https://www.wto.org/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/trade/export-import-bans-immediate-vs-lagged-market-effects",
@@ -108,7 +198,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "World Trade Organization",
+              "url": "https://www.wto.org/",
+              "type": "OFFICIAL_DOCS"
+            }
+          ]
         }
       ]
     },
@@ -123,7 +224,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "OFAC (U.S. Treasury sanctions)",
+              "url": "https://ofac.treasury.gov/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/sanctions/how-sanctions-are-enforced-and-evaded",
@@ -131,7 +243,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "OFAC (U.S. Treasury sanctions)",
+              "url": "https://ofac.treasury.gov/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/sanctions/case-studies-iran-russia-venezuela-sanctions-and-market-effe",
@@ -139,7 +262,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "OFAC (U.S. Treasury sanctions)",
+              "url": "https://ofac.treasury.gov/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/sanctions/swift-and-financial-sanctions-mechanics",
@@ -147,7 +281,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "OFAC (U.S. Treasury sanctions)",
+              "url": "https://ofac.treasury.gov/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -162,7 +307,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "International Energy Agency",
+              "url": "https://www.iea.org/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/energy-politics/energy-independence-strategy-shale-renewables-transition-pol",
@@ -170,7 +326,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "International Energy Agency",
+              "url": "https://www.iea.org/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/energy-politics/pipeline-politics-nord-stream-and-regional-pipeline-disputes",
@@ -178,7 +345,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "International Energy Agency",
+              "url": "https://www.iea.org/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/energy-politics/strategic-reserve-releases-as-a-policy-tool",
@@ -186,7 +364,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "International Energy Agency",
+              "url": "https://www.iea.org/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -201,7 +390,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/diplomacy/reading-escalation-vs-de-escalation-signals-in-official-lang",
@@ -209,7 +404,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/diplomacy/role-of-international-mediators",
@@ -217,7 +418,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -232,7 +439,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "United Nations",
+              "url": "https://www.un.org/en/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/global-organizations/imf-world-bank-roles-in-crisis-response",
@@ -240,7 +458,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "United Nations",
+              "url": "https://www.un.org/en/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/global-organizations/iea-as-both-a-data-source-and-a-policy-influence",
@@ -248,7 +477,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "United Nations",
+              "url": "https://www.un.org/en/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-geopolitics/global-organizations/g7-g20-coordination-role-during-shocks",
@@ -256,7 +496,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "United Nations",
+              "url": "https://www.un.org/en/",
+              "type": "OFFICIAL_DOCS"
+            },
+            {
+              "title": "World101 \u2014 CFR",
+              "url": "https://world101.cfr.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     }

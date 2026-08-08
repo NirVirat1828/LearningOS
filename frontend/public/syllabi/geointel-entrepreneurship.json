@@ -14,7 +14,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/product-thinking/defining-mvp-scope-already-practiced-via-the-thin-slice-appr",
@@ -22,7 +28,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/product-thinking/feature-prioritization-framework-pick-one-rice-or-moscow-not",
@@ -30,7 +42,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -45,7 +63,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/user-experience/designing-for-trust-citations-confidence-levels-source-trans",
@@ -53,7 +77,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/user-experience/mobile-first-design-principles-already-applied-in-the-tracke",
@@ -61,7 +91,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -76,7 +112,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Paul Graham Essays",
+              "url": "https://www.paulgraham.com/articles.html",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/startup-strategy/niche-first-strategy-why-the-oil-energy-slice-beats-going-br",
@@ -84,7 +131,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Paul Graham Essays",
+              "url": "https://www.paulgraham.com/articles.html",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/startup-strategy/what-actually-forms-a-moat-in-an-ai-product-data-workflow-tr",
@@ -92,7 +150,18 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            },
+            {
+              "title": "Paul Graham Essays",
+              "url": "https://www.paulgraham.com/articles.html",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -107,7 +176,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/business-models/unit-economics-cost-per-query-report-vs-willingness-to-pay",
@@ -115,7 +190,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/business-models/b2c-vs-b2b2c-direct-to-traders-vs-distribution-through-a-bro",
@@ -123,7 +204,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -138,7 +225,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/execution/talking-to-real-users-before-building-more",
@@ -146,7 +239,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/execution/deciding-what-not-to-build",
@@ -154,7 +253,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "YC Startup School",
+              "url": "https://www.startupschool.org/",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     },
@@ -169,7 +274,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/decision-making/distinguishing-signal-from-noise-in-user-feedback",
@@ -177,7 +288,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         },
         {
           "id": "geointel-entrepreneurship/decision-making/recognizing-when-to-pivot-vs-when-to-persist-on-the-current",
@@ -185,7 +302,13 @@
           "difficulty": "INTERMEDIATE",
           "estimatedMinutes": 20,
           "prerequisites": [],
-          "resources": []
+          "resources": [
+            {
+              "title": "Y Combinator Library",
+              "url": "https://www.ycombinator.com/library",
+              "type": "ARTICLE"
+            }
+          ]
         }
       ]
     }
